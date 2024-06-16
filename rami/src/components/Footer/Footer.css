@@ -1,0 +1,39 @@
+@import url('http://fonts.googleapis.com/css?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #CFCCD6;
+    color: #333;
+}
+
+footer h2 {
+    font-size: 32px;  /* Adjust size as needed */
+    margin-bottom: 0; /* Remove default margin */
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+footer span {
+    display: block; /* Makes span take a new line */
+    color: #333; /* Adjust color to fit design */
+    margin-top: 5px; /* Space between title and subtitle */
+    font-size: 20px; /* Smaller font size for subtitle */
+}
+
+.footer-underline {
+    width: 50%; /* Adjust width as needed */
+    height: 2px; /* Thickness of the line */
+    background-color: red; /* Line color */
+    position: absolute;
+    bottom: 10px; /* Position from the bottom */
+    left: 25%; /* Centering the line */
+}
+
+iframe {
+    margin: auto;
+    width: 80%; /* Adjusted to take full width for a wider map display */
+    padding: 0 50px;
+    padding-top: 15px;
+    height: 290px;
+}
