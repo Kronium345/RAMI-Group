@@ -6,6 +6,8 @@ import Footer from './components/Footer/Footer';
 import Team from './pages/Team/Team';
 import RecentProjects from './pages/RecentProjects/RecentProjects';
 import Publications from './pages/Publications/Publications';
+import News from './pages/News/News';
+import News1 from './pages/News/News1';
 
 function App() {
   return (
@@ -17,7 +19,8 @@ function App() {
         Example: <Route path="/team" element={<Team />} />
         Example: <Route path="/recent-projects" element={<RecentProjects />} />
         Example: <Route path="/publications" element={<Publications />} />
-        {/* Example: <Route path="/news" element={<News />} /> */}
+        Example: <Route path="/news" element={<News />} />
+        Example: <Route path="/first-news" element={<News1 />} />
         {/* Example: <Route path="/more" element={<More />} /> */}
       </Routes>
       <Footer />
