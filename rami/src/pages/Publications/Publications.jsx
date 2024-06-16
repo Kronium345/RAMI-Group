@@ -51,7 +51,83 @@ const journals = [
     "O. Araar, N. Aouf and M. Richardson Vision Based Autonomous Landing of Multirotor UAV on Moving Platform Journal of Intelligent & Robotic Systems, Springer, , Volume 85, Issue 2, pp 369–384, February 2017",
     "O. Yılmaz, N. Aouf, E. Checa, L. Majewski, and M. Sanchez- Gestido Thermal Analysis of Space Debris for Infrared Based Active Debris Removal. In Proceedings of the Institution of Mechanical Engineers, Part G: Journal of Aerospace Engineering, 2017 (First Published November 17, 2017)",
     "L. Chermak, N. Aouf and M.Richardson Scale Robust IMU-assisted KLT for Stereo Visual Odometry Solution Robotica, 35(9), pp. 1864-1887, 2017 Cambridge Journals."
-  ]}
+  ]},
+  { year: 2016, publications: [
+    "L. Chermak and N. Aouf, M. Richardson and G. Visentin Real Time Smart and Standalone Vision-IMU Navigation Sensor Springer, Journal of Real Time imaging (2016). https://doi.org/10.1007/s11554-016-0613-z"
+  ]},
+  { year: 2015, publications: [
+    "R. Azzam, M.S. Kemouche, N. Aouf and M. Richardson Efficient Visual Object Detection with Spatially Global Gaussian Mixture Models With Uncertainties Elsevier, Journal of Visual Communication and Image Representation, November 2015, 10.1016/j.jvcir.2015.11.009",
+    "Amamra, N. Aouf, S. Dowling and M. Richardson A Recursive Robust Filtering Approach for 3D Registration Springer Journal, Signal, Image and Video Processing Accepted, September 2015",
+    "Araar O and Aouf N Practical Servoing of VTOL UAVs From Object of Unknown 3D Geometry: a New Hybrid Approach Imaging Science Journal, July 2015",
+    "T. Mouats, N. Aouf, L. Chermak, and M.A. Richardson Thermal Stereo Odometry for UAVs Sensors Journal, IEEE (Volume:PP , Issue: 99 ) 10.1109/JSEN.2015.2456337, July 2015",
+    "Mouats T, Aouf N & Richardson MA A Novel image representation via local frequency analysis for illumination invariant stereo matching IEEE Transactions on Image Processing, PP (99) IF (3.62) May 2015",
+    "Araar O, Aouf N & Vallejo JL Power pylon detection and monocular depth estimation from inspection UAVs Industrial Robot-An International Journal, 42 (3) February 2015",
+    "D Rodriguez; N Aouf and M Richardson Moments-based stereo camera egomotion analysis and results for long-range trajectories The Imaging Science Journal, Doi: 10.1179/1743131X12Y.0000000034 2012 Most read paper up to November 2015 (online)"
+  ]},
+  { year: 2014, publications: [
+    "Amamra and N. Aouf Real-Time Multiview Data Fusion For Object Tracking With RGBD Sensors Robotica, Cambridge Journals November 2014",
+    "M. Boulekchour, N. Aouf and M. Richardson Robust L∞ convex pose-graph optimization for monocular localization solution for UAVs Imeche Journal of Aerospace Engineering, November 2014",
+    "T. Mouats, N. Aouf, A. Sappa, C. Aguilera, and R. Toledo Multi-Spectral Stereo Odometry IEEE Transactions on Intelligent Transportation Systems September 2014",
+    "Amamra and N. Aouf GPU-based real-time RGBD data filtering Springer, Journal of Real-Time Image Processing, September 2014",
+    "Abdenour Amamra and Nabil Aouf GPU-based real-time RGBD data filtering Springer, Journal of Real-Time Image Processing Doi 10.1007/s11554-014-0453-7, Sept 2014",
+    "Almutairi, Saif H., and Nabil Aouf Design and Non-Linear Simulations of a Fault-Tolerant Flight Control Advanced Materials Research; Vol.1016; pp. 671-77, August 2014",
+    "Mohammed Boulekchour, Nabil Aouf and Mark Richardson Robust L∞ Convex Optimisation for Monocular Visual Odometry Trajectory Estimation ROBOTICA, Cambridge Journals Doi: http://dx.doi.org/10.1017/S0263574714001829, July 2014",
+    "B. Djamaa, M. Richardson, N. Aouf and B. Walters Towards Efficient Distributed Service Discovery in Low-Power and Lossy Networks Springer Wireless Networks Journal, June 2014",
+    "Luke Feetham, Nabil Aouf, Clement Boudarias and Thomas Voirin Single Camera Absolute Motion Based Digital Elevation Mapping for a Next Generation Planetary Lander Acta Astronautica 98C (2014), pp. 169-188, FEB-2014",
+    "Lounis Chermak and Nabil Aouf HDR Imaging for Feature Tracking in Challenging Visibility Scenes Kybernetes Vol. 43 Iss: 8, pp.1129 – 1149, 2014",
+    "Xiaodong Li, Nabil Aouf and Mark Richardson Comparative Analysis on SIFT Features in Visible and Infrared Aerial Imaging International Journal of Applied Pattern Recognition, Vol.1, No.3 pp.273 – 297 2014"
+  ]},
+  { year: 2012, publications: [
+    "Greer J. Gray; Nabil Aouf; Mark A. Richardson; Brian Butters and Roy Walmsley An Intelligent Tracking Algorithm For an Imaging Infrared Anti-Ship Missile SPIE Optical Engineering Journal IF (0.95) February 2012",
+    "Saad Imran and · Nabil Aouf Robust L∞ Homography Estimation using Reduced Image Feature Covariances from an RGB Image Journal of Electronic Imaging, SPIE, Vol:21, Issue:4 Doi:10.1117/1.JEI.21.4.043022 IF (0.672) December 2012",
+    "D Rodriguez; N Aouf and M Richardson Moments-based stereo camera egomotion analysis and results for long-range trajectories The Imaging Science Journal, Doi:10.1179/1743131X12Y.0000000034 2012 Most read paper up to November 2015 (online)",
+    "K. Nemra and N. Aouf Cooperative Visual SLAM with Experimental Validation Proceedings of the Institution of Mechanical Engineers, Part G: Journal of Aerospace Engineering, Professional Engineering Publishing. DOI:10.1177/0954410012466006, 2012",
+    "M. Kharbat and N. Aouf Recursive Estimation of 3-D UAV Motion and Structure Based on the Linfinity-Norm Proceedings of the Institution of Mechanical Engineers, Part G: Journal of Aerospace Engineering, Professional Engineering Publishing, doi:10.1177/0954410011415765, vol. 226, no. 7, pp:751-762 ,July 2012 On the 27th January 2012, this article figured in the most read and most cited articles list (online)",
+    "N. Aouf and B. Boulet LFT Gain Scheduling Control Preserving Robust Performance Proceedings of the Institution of Mechanical Engineers, Part G: Journal of Aerospace Engineering, Professional Engineering Publishing, doi:10.1177/0954410011415767, vol. 226, no. 7, pp:763-773, July 2012",
+    "G. J. Gray; N. Aouf; M. A. Richardson; B. Butters; R. Walmsley; E. Nicholls Feature-based recognition approaches for infrared anti-ship missile seekers, The Imaging Science Journal, DOI:10.1179/1743131X12Y.0000000012, June 2012",
+    "Y. Morsly and N. Aouf Particle Swarm Optimization Inspired Probability Algorithm for Optimal Visual Sensor Network Placement IEEE Sensors Journal, VOL. 12, NO. 5, May 2012"
+  ]},
+  { year: 2011, publications: [
+    "M.S. Kemouche and N. Aouf A Gaussian mixture based optical flow modelling for object detection The Imaging Science Journal. DOI: 10.1179/1743131X11Y.0000000050, December, 2011",
+    "Greer J. Gray; Nabil Aouf; Mark A. Richardson; Brian Butters; Roy Walmsley; Edgar Nicholls Feature-Based Target Recognition in Infrared Images for Future Unmanned Aerial Vehicles Journal of Battlefield Technology, Vol. 14, No. 2, pp: 27-36 July 2011"
+  ]},
+  { year: 2010, publications: [
+    "K.Nemra and N.Aouf Experimental Airborne 3D Visual Simultaneous Localization and Mapping in Unknown Environments Proceedings of the Institution of Mechanical Engineers, Part G: Journal of Aerospace Engineering, Professional Engineering Publishing, 2010",
+    "K. Nemra and N.Aouf INS/GPS Self-Localisation of a UAV using SDRE Nonlinear Filtering IEEE Sensor Journal, Vol. 10, No. 4, April 2010",
+    "M. Kharbat and N.Aouf Dense locally-optimised optical flow using robust data fusion Signal, Image and Video Processing, Springer Journal,DOI 10.1007/s11760-010-0155-y, 2010",
+    "C.L. Lin, T.C. Kao, Y.H. Li and N. Aouf Potential-Field-Based Evolutionary Route Planner for Unmanned Aerial Vehicles Proceedings of the Institution of Mechanical Engineers, Part G: Journal of Aerospace Engineering, 2010",
+    "N. Aouf and M. Kharbat Vision Based Detection, Tracking and Planning for Autonomous Vehicles International Journal of Intelligent Control and Computational Intelligence 2010"
+  ]},
+  { year: 2009, publications: [
+    "K. Nemra and N. Aouf Robust Airborne 3D Visual Simultaneous Localization and Mapping with Observability and Consistency analysis the special issue on Airborne SLAM research problem, Journal of Intelligent and Robotic Systems (Springer) Volume 55, Issue 4-5, August 2009",
+    "Nabil Aouf, Anibal Ollero, Jurek Z.Sasiadek Editorial for a: Special Issue on: Airborne Simultaneous Localisation and Map Building (A-SLAM) the special issue on Airborne SLAM research problem, Journal of Intelligent and Robotic Systems (Springer) Volume 55, Issue 4-5 pp 247-248, August 2009",
+    "M.S Kemouche and N. Aouf Hinfinity Filter Based Turn Prediction Algorithm for Manoeuvring Target Tracking Journal of Battlefield Technology November 2009",
+    "M.W. Hong, C.L. Lin, B.M. Shiu and N. Aouf Stabilizing Networked Pneumatic Control Systems With Time Delays International Journal of Computational Intelligence and Applications Vol. 8, No. 2, pp:209–223, Imperial College Press 2009"
+  ]},
+  { year: 2008, publications: [
+    "N. Aouf and B. Boulet Uncertainty-based model-order reduction of flexible systems preserving robust closed-loop performance Proceedings of the Institution of Mechanical Engineers, Part G: Journal of Aerospace Engineering, Volume 222, Number 2, p: 291-295, Professional Engineering Publishing, 2008",
+  ]},
+  { year: 2007, publications: [
+    "Lazarus, S B., Ashokaraj, I., Tsourdos, A., Zbikowski, R., Silson, Peter M G., Aouf, N., White, B A Vehicle Localization Using Sensors Data Fusion Via Integration of Covariance Intersection and Interval Analysis IEEE Sensors Journal, Volume 7, Issue 12, pp:1775 – 1808, Dec. 2007",
+  ]},
+  { year: 2006, publications: [
+    "M. C. Turner, N. Aouf, D. G. Bates, I. Postlethwaite and B. Boulet Switched control of a V/STOL aircraft: an application of LQ bumpless transfer Proceedings of The Institution of Mechanical Engineers Part I, Journal of Systems and Control Engineering , Vol. 220, pp. 157-170, 2006"
+  ]},
+  { year: 2004, publications: [
+    "C.A. Rabbath, N. Aouf, N. Hori, M. Lauzon Combined Hinfinity Model-Matching Control and Dual-rate Digital Redesign for Missile Acceleration Autopilots Transactions of the Canadian Society for Mechanical Engineering, vol. 28, no. 1, pp. 73-87, 2004"
+  ]},
+  { year: 2003, publications: [
+    "N. Aouf H. Molhem, and C.A.Rabbath Model following control of BTT Missile with switching procedure Invited for the special issue on control of defense systems in the International Journal of Nonlinear studies April 15th 2003",
+    "N. Aouf and B. Boulet Uncertainty models for flexible structures AIAA Journal of Guidance, dynamics and Control, August 2003"
+  ]},
+  { year: 2002, publications: [
+    "N. Aouf, D. Bates, I. Postlethwait and B. Boulet Scheduling of integrated flight and propulsion control laws for a V/STOL aircraft from in the acceleration from hover Control engineering practice. IFAC Journal, March 2002",
+    "N. Aouf, B. Boulet, R. Botez Model-Controller Reduction for Flexible Aircraft Achieving Robust Performance IEEE Control and systems technology, Vol10, no2, pp 1-9, March 2002"
+  ]},
+  { year: 2000, publications: [
+    "N. Aouf, B. Boulet, R. Botez Robust gust alleviation for flexible aircraft Canadian Aeronautics and Space Journal (Cover page of the Journal)(CASJ) Vol46, no 3, pp 131-141, Sept 2000"
+  ]},
+
 ];
 
 const conferences = [
