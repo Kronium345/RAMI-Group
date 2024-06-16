@@ -19,7 +19,38 @@ const journals = [
     "Janing Song, Duarte Rondao and Nabil Aouf Deep Learning-based Spacecraft Relative Navigation Methods: A Survey, Acta Astronautica 2022-02, DOI: 10.1016/j.actaastro.2021.10.025",
     "Lei He, Nabil Aouf and Bifeng Song, Explainable Deep Reinforcement Learning for UAV autonomous path planning, Aerospace Science and Technology, Elsevier, Vol 118, November 2021, 107052.",
     "Axel Beauvisage, Kenan Ahiska, and Nabil Aouf, Robust multispectral visual-inertial navigation with visual odometry failure recovery, IEEE Transactions on Intelligent Transportation Systems (ITS) 2021",
-    "Viana, I.B., Kanchwala, H., Ahiska, K. and Aouf, N. (2021). A Comparison of Trajectory Planning and Control Frameworks for Cooperative Autonomous Driving. Journal of Dynamic Systems, Measurement, and Control, 143(7). doi:10.1115/1.4049554."
+    "Viana, I.B., Kanchwala, H., Ahiska, K. and Aouf, N. (2021). A Comparison of Trajectory Planning and Control Frameworks for Cooperative Autonomous Driving. Journal of Dynamic Systems, Measurement, and Control, 143(7). doi:10.1115/1.4049554.",
+    "D Rondao, N Aouf, MA Richardson, V Dubanchet Robust on-manifold optimization for uncooperative space relative navigation with a single camera Journal of Guidance, Control, and Dynamics 44 (6), 1157-1182, 2021"
+  ]},
+  { year: 2020, publications: [
+    "Kechagias-Stamatis O, Aouf N, Koukos JA. Deep Learning Fusion for COVID-19 Diagnosis. medRxiv; 2020. DOI: 10.1101/2020.12.11.20246546.",
+    "O Kechagias-Stamatis, N Aouf Automatic Target Recognition on Synthetic Aperture Radar Imagery: A Survey IEEE Aerospace and Electronic Systems Magazine 36 (3), 2020",
+    "Carole Belloni, Alessio Balleri, Nabil Aouf, Jean-Marc Le Caillec, and Thomas Merlet Explainability of Deep SAR ATR Through Feature Analysis IEEE TRANSACTIONS ON AEROSPACE AND ELECTRONIC SYSTEMS, AUGUST 2020",
+    "Carole Belloni; Nabil Aouf; Alessio Balleri; Jean-Marc Le Caillec; Thomas Merlet Pose-informed deep learning method for SAR ATR IET Radar, Sonar and Navigation Volume 14, Issue 11, November 2020, p. 1649 – 1658",
+    "Kechagias-Stamatis, O., Aouf, N., Dubanchet, V. and Richardson, M.A. (2020). DeepLO: Multi-projection deep LIDAR odometry for space orbital robotics rendezvous relative navigation. Acta Astronautica, 177, pp. 270–285. doi:10.1016/j.actaastro.2020.07.034.",
+    "Kanchwala, H., Bezerra Viana, I. and Aouf, N. (2020). Cooperative path-planning and tracking controller evaluation using vehicle models of varying complexities. Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science. doi:10.1177/0954406220945468.",
+    "Kechagias-Stamatis, O., Aouf, N. and Dubanchet, V. (2020). Evaluating 3D local descriptors and recursive filtering schemes for LIDAR-based uncooperative relative space navigation. Journal of Field Robotics, 37(5), pp. 848–888. doi:10.1002/rob.21904.",
+    "Rondao, D., Aouf, N., Richardson, M.A. and Dubois-Matra, O. (2020). Benchmarking of local feature detectors and descriptors for multispectral relative navigation in space. Acta Astronautica, 172, pp. 100–122. doi:10.1016/j.actaastro.2020.03.049.",
+    "H. Isakhani, N. Aouf, O. Kechagias-Stamatis, and J.F. Whidborne A Furcated Visual Collision Avoidance System for an Autonomous Micro Robot, IEEE Transactions on Cognitive and Developmental Systems ( Volume: 12 , Issue: 1 , March 2020 )"
+  ]},
+  { year: 2019, publications: [
+    "Kechagias-Stamatis, O., Aouf, N. and Richardson, M.A. (2019). High-speed multi-dimensional relative navigation for uncooperative space objects. Acta Astronautica, 160, pp. 388–400. doi:10.1016/j.actaastro.2019.04.050.",
+    "Kechaigias-Stamatis and Nabil Aouf Hinfinity Lidar Odometry for Spacecraft Relative Navigation, accepted for IET Radar and Navigation Journal January 2019",
+    "O. Kechagias-Stamatis and N. Aouf Fusing Deep Learning and Sparse Coding for SAR ATR IEEE Transactions on Aerospace and Electronic Systems ( Volume: 55 , Issue: 2 , April 2019 ) .",
+    "Aouf, N., Kharbat, M. and Chun Liang, L. (2019). Video detection, tracking and path planning for ground autonomous systems. International Journal of Computational Intelligence in Control, 11(1), pp. 15–24."
+  ]},
+  { year: 2018, publications: [
+    "O. Kechagias-Stamatis and N. Aouf A New Passive 3D Automatic Target Recognition Architecture for Aerial Platforms IEEE Transactions on Geoscience and Remote Sensing, 2019, DOI:10.1109/TGRS.2018.2855065.",
+    "T. Mouats, N. Aouf, D. Nam, and S. Vidas Performance Evaluation of Feature Detectors and Descriptors Beyond the Visible J Intell Robot Syst (2018). https://doi.org/10.1007/s10846-017-0762-8",
+    "O. Kechagias-Stamatis, N. Aouf, G. Gray, M. Richardson, and F. Oudyi Local feature based automatic target recognition for future 3D active homing seeker missiles Aerospace Science and Technology, 2018"
+  ]},
+  { year: 2017, publications: [
+    "O. Kechagias-Stamatis, N. Aouf Evaluating 3D local descriptors for future LIDAR missiles with automatic target recognition capabilities Imaging Science Journal Pages 428-437 | Received 27 Apr 2017, Accepted 24 Jul 2017, Published online: 14 Aug 2017",
+    "M. Boulekchour, N. Aouf, and M. Richardson Robust Linfinity convex optimisation for UAVs cooperative motion estimation Proceedings of the Institution of Mechanical Engineers, Part G: Journal of Aerospace Engineering, Vol 231, Issue 11, 2017 DOI: 10.1177/0954410016675889",
+    "S. Almutairi and N. Aouf Reconfigurable dynamic control allocation for aircraft with actuator failure, The Aeronautical Journal, Cambridge University Press, Vol 121, Issue 1237, pp. 341-371, March 2017",
+    "O. Araar, N. Aouf and M. Richardson Vision Based Autonomous Landing of Multirotor UAV on Moving Platform Journal of Intelligent & Robotic Systems, Springer, , Volume 85, Issue 2, pp 369–384, February 2017",
+    "O. Yılmaz, N. Aouf, E. Checa, L. Majewski, and M. Sanchez- Gestido Thermal Analysis of Space Debris for Infrared Based Active Debris Removal. In Proceedings of the Institution of Mechanical Engineers, Part G: Journal of Aerospace Engineering, 2017 (First Published November 17, 2017)",
+    "L. Chermak, N. Aouf and M.Richardson Scale Robust IMU-assisted KLT for Stereo Visual Odometry Solution Robotica, 35(9), pp. 1864-1887, 2017 Cambridge Journals."
   ]}
 ];
 
@@ -156,7 +187,33 @@ const conferences = [
    "L. Caravita, A.Tsourdos, N.Aouf, B.White and P.Silson “Control strategies applied to waypoint navigation and obstacle avoidance guidance” Advances in Control and Optimization of Dynamical Systems Conference (ACODS 07)",
     "Lazarus, S.B, Ashokaraj, I.A.R, Tsourdos, A, Zbikowski, R, Silson, P, Aouf, N, White, B.A “Robot Localisation and Mapping Using Data Fusion Via Integration of Covariance Intersection and Interval Analysis for a Partially Known Map” European Control Conference 07.",
   ]},
-
+  { year: 2006, publications: [
+    "Z. Li Z., W.F. Xie. And N.Aouf, “A Neural Network Based Hand-Eye Calibration Approach in Robotic Manufacturing Systems”, Conference of Canadian Society of Mechanical Engineers (CSME), Calgary, 2006" // 2006
+  ]},
+  { year: 2004, publications: [
+    "N. Aouf, H. Rajabi and C. Perron “Visual servoing with a Camera mounted on indusrual 6DOF robot” IEEE international conference on robotic, automation and vision Singapore Dec 2004." // 2004
+  ]},
+  { year: 2003, publications: [
+    "Moore, B. Boulet, N. Aouf, P. Girard, R. DiRaddo, “Multivariable H-infinity Control of the Thermoforming Reheat Process”. 3rd DCDIS Int. Conf. on Engineering Applications and Computational Algorithms. Guelph, Ontario, May 15-18 2003", // 2003
+    "N. Aouf., “Closed-loop Plasma spray control” Proceedings Surftec Workshop. Sep 2003.", // 2003
+    "N. Aouf “Fault Diagnosis and Isolation for thermoforming process” IEEE international control and automation conference Montreal 2003.", // 2003
+    "N. Aouf, and C.A. Rabbath “ Intelligent strategy for BTT missile control problem” IEEE international control and automation conference Montreal 2003.", // 2003
+    "N. Aouf, R. Diraddo and B. Boulet “Neural control strategy for a thermoforming process” IEEE Conference on Control Applications Turkey 2003." // 2003
+  ]},
+  { year: 2002, publications: [
+    "M. Tuner, N. Aouf, D. Bates, I. Postlethwaite and B. Boulet “Switching Technique for a VSTOL Aircraft”Conference on Control applications September 2002.", // 2002
+    "N. Aouf, D. Bates “Scheduling-partitioning technique for Harrier VSTOL aircraft” American Control Conference ACC 2002.", // 2002
+    "N. Aouf, B. Boulet, R. Botez “Gain Scheduling technique for B1 Flexible Aircraft” American Control Conference ACC 2002." // 2002
+  ]},
+  { year: 2001, publications: [
+    "N. Aouf, B. Boulet “Uncertainty models for flexible structures” in proceedings of AiAA Guidance, Navigation and Control 2001.", // 2001
+    "N. Aouf, D. Bates and I. Postlethwaite “Observer form scheduling for an Hinfinity loopshaping integrated flight and propulsion control law” in proceedings of AiAA Guidance, Navigation and Control 2001.", // 2001
+    "N. Aouf, B. Boulet, R. Botez “Model-Controller Reduction for Flexible Aircraft Achieving Robust Performance” in proceedings of American Control Conference ACC 2001." // 2001
+  ]},
+  { year: 2000, publications: [
+    "N. Aouf, B. Boulet, R. Botez “H2 and H-infinity –Optimal Gust Load Alleviation for a Flexible Aircraft” in proceedings of American Control Conference ACC 2000.", // 2000
+    "N. Aouf, B. Boulet, R. Botez “Robust gust alleviation for flexible aircraft” Casi (Canadian Aeronautics and Space Institute) conference 2000." // 2000
+  ]},
 ];
 
 const PublicationCard = ({ title, publications }) => (
