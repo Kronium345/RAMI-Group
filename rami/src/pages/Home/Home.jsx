@@ -1,3 +1,4 @@
+// src/components/Home.jsx
 import React from 'react';
 // import ramiLogo from '../../assets/rami-logo.png';
 import nabilImage from '../../assets/team/nabil.png';
@@ -31,12 +32,9 @@ const Home = () => {
     <div className="home">
       {/* Hero Section */}
       <section className="hero h-screen flex flex-col items-center justify-center text-center bg-gradient-to-r from-[#D3EAF7] via-[#E2E8F0] to-[#F56565] relative">
-        {/* <div className="logo-container absolute top-4 left-4">
-          <img src={ramiLogo} alt="RAMI Logo" className="w-24 h-24" />
-        </div> */}
         <div className="hero-content">
-          <h1 className="text-5xl font-bold">Robotics, Autonomy and Machine Intelligence Group</h1>
-          <p className="text-red-500 mt-2 text-xl">———— A World-class Research Group</p>
+          <h1 className="text-5xl font-bold text-black">Robotics, Autonomy and Machine Intelligence Group</h1>
+          <p className="text-red-500 mt-2 text-xl">A World-class Research Group</p>
         </div>
       </section>
 
@@ -61,7 +59,7 @@ const Home = () => {
               <p className="text-xl quote-text">
                 "I'd like to welcome you to my group webpage. You can navigate through the tabs to check out our exciting projects and read more about RAMI. You can find my research profile and facilities below."
               </p>
-              <p className="quote-author">———— Prof. Nabil Aouf</p>
+              <p className="quote-author">Prof. Nabil Aouf</p>
             </div>
           </div>
         </div>
@@ -87,9 +85,11 @@ const Home = () => {
 
       {/* Facilities Section */}
       <section className="facilities py-16 bg-gray-100 text-center">
-        <div className="container mx-auto px-4">
+        <div className="facilities-container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8">Facilities</h2>
-          <p className="text-lg">The centre has two fully equipped research facilities. It has one of the largest indoor testing areas in London. With fitted opti-track motion tracking systems in this area, running of multi-platform tests for both drones and ground vehicles can be achieved smoothly. In addition to seven drones, the centre is in custody of two mobile ground robots equipped with the latest sensors like the Velodyne Puck lidar and Zed cameras. The centre also possesses three robotic manipulators from top sellers like: Sawyer, Kinova, and Franka. The centre engages in Virtual Reality (VR) and Augmented Reality (AR) applications with world-class goggle kits. The centre has High-Performance Computing (HPC) clusters for Artificial Intelligence (AI) applications. All these and lots more.</p>
+          <p className="text-lg">
+            The centre has two fully equipped research facilities. It has one of the largest indoor testing areas in London. With fitted opti-track motion tracking systems in this area, running of multi-platform tests for both drones and ground vehicles can be achieved smoothly. In addition to seven drones, the centre is in custody of two mobile ground robots equipped with the latest sensors like the Velodyne Puck lidar and Zed cameras. The centre also possesses three robotic manipulators from top sellers like: Sawyer, Kinova, and Franka. The centre engages in Virtual Reality (VR) and Augmented Reality (AR) applications with world-class goggle kits. The centre has High-Performance Computing (HPC) clusters for Artificial Intelligence (AI) applications. All these and lots more.
+          </p>
         </div>
       </section>
 
@@ -115,8 +115,15 @@ const Home = () => {
       <section className="contact py-16 bg-gray-100 text-center">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8">Contact</h2>
-          <p className="text-lg">Call Us: +44 (0)20 7040 5168</p>
-          <p className="text-lg">Email: <a href="mailto:Nabil.aouf@city.ac.uk" className="text-blue-500">Nabil.aouf@city.ac.uk</a></p>
+          <form>
+            <h3>Contact Us</h3>
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">
+              Send Message
+            </button>
+          </form>
         </div>
       </section>
     </div>
