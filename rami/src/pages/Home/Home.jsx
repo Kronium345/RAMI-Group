@@ -1,5 +1,5 @@
 import React from 'react';
-// import ramiLogo from '../../assets/rami-logo.png';
+import ramiLogo from '../../assets/rami-logo.png';
 import nabilImage from '../../assets/team/nabil.png';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -57,6 +57,9 @@ const Home = () => {
       {/* Hero Section */}
       <section className="hero h-screen flex flex-col items-center justify-center text-center bg-gradient-to-r from-[#D3EAF7] via-[#E2E8F0] to-[#F56565] relative">
         <div className="hero-content">
+        <div className="logo-container">
+            <img src={ramiLogo} alt="RAMI Logo" className="rami-logo" />
+        </div>
           <h2 className="text-5xl font-bold text-black">Robotics, Autonomy and Machine Intelligence Group</h2>
           <p className="text-red-500 mt-2 text-xl">A World-class Research Group</p>
         </div>
@@ -66,7 +69,7 @@ const Home = () => {
       <section className="intro py-16 text-center">
         <div className="intro-container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8">Robotics, Autonomy and Machine Intelligence Group</h2>
-          <p className="text-xl">
+          <p className="intro-text text-xl">
             Robotics, Autonomy and Machine Intelligence (RAMI) Group led by Prof Nabil Aouf is dedicated to fulfilling customer’s ambitious and innovative requirements. The group steadily establishes itself as a world leader in a range of applications from automatic sensing to processing and AI Autonomy for Data Processing, Robotics, and Unmanned Vehicles to platforms Navigation/Control and Cyber Physical Systems.
           </p>
           <Link to="/about" className="mt-4 px-6 py-2 bg-red-500 text-white rounded-lg inline-block">Read More</Link>
@@ -112,7 +115,7 @@ const Home = () => {
       <section className="facilities py-16 bg-gray-100 text-center">
         <div className="facilities-container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8">Facilities</h2>
-          <p className="text-lg">
+          <p className="intro-text text-lg">
             The centre has two fully equipped research facilities. It has one of the largest indoor testing areas in London. With fitted opti-track motion tracking systems in this area, running of multi-platform tests for both drones and ground vehicles can be achieved smoothly. In addition to seven drones, the centre is in custody of two mobile ground robots equipped with the latest sensors like the Velodyne Puck lidar and Zed cameras. The centre also possesses three robotic manipulators from top sellers like: Sawyer, Kinova, and Franka. The centre engages in Virtual Reality (VR) and Augmented Reality (AR) applications with world-class goggle kits. The centre has High-Performance Computing (HPC) clusters for Artificial Intelligence (AI) applications. All these and lots more.
           </p>
         </div>

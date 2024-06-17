@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import ramiLogo from '../../assets/rami-logo.png';
-
+// import ramiLogo from '../../assets/rami-logo.png';
 
 const Navbar = () => {
   useEffect(() => {
@@ -22,12 +21,12 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="navbar bg-transparent">
+    <nav className="navbar">
       <div className="container mx-auto px-4 py-2 flex justify-between items-center">
         <div className="logo">
-          <Link to="/" className="text-xl font-bold">
+          {/* <Link to="/" className="text-xl font-bold">
             <img src={ramiLogo} alt="" />
-          </Link>
+          </Link> */}
         </div>
         <ul className="flex space-x-6">
           <li><Link to="/" className="text-red-500">Home</Link></li>
@@ -35,7 +34,7 @@ const Navbar = () => {
           <li><Link to="/recent-projects">Recent Projects</Link></li>
           <li><Link to="/publications">Publications</Link></li>
           <li><Link to="/news">News</Link></li>
-          <li><Link to="/more">More</Link></li>
+          {/* <li><Link to="/more">More</Link></li> */}
         </ul>
       </div>
     </nav>

@@ -27,6 +27,17 @@
   font-size: 1.25rem;
 }
 
+.logo-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.rami-logo {
+  height: 80px; /* Adjust the height as needed */
+  width: 80px;
+}
+
 .intro, .quote-section, .research-profile, .facilities, .tour, .contact {
   width: 100%;
   padding: 60px 0;
@@ -58,7 +69,6 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 
 .profile-img {
   width: 100px;
@@ -208,6 +218,12 @@
 .facilities p {
   font-size: 1.25rem;
   line-height: 1.5;
+}
+
+.intro-text {
+  max-width: 800px; /* Added to make the paragraph more compact */
+  margin: 0 auto;   /* Center the text within the container */
+  line-height: 1.6;
 }
 
 @media (max-width: 768px) {
