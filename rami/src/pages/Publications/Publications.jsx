@@ -316,7 +316,7 @@ const Publications = () => {
     <div className="publications-page">
       <section className="publications-hero text-center">
         <div className="container mx-auto">
-          <h1 className="text-5xl font-bold text-white bg-opacity-50 py-4 px-8 inline-block">Publications</h1>
+          <h2 className="text-5xl font-bold bg-opacity-50 py-4 px-8 inline-block">Publications</h2>
         </div>
       </section>
 

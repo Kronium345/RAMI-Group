@@ -16,6 +16,7 @@ import gridImage from '../../assets/grid-image.jpeg';
 
 // Import video
 import tourVideo from '../../assets/file-video.mp4';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   const settings = {
@@ -56,18 +57,19 @@ const Home = () => {
       {/* Hero Section */}
       <section className="hero h-screen flex flex-col items-center justify-center text-center bg-gradient-to-r from-[#D3EAF7] via-[#E2E8F0] to-[#F56565] relative">
         <div className="hero-content">
-          <h1 className="text-5xl font-bold text-black">Robotics, Autonomy and Machine Intelligence Group</h1>
+          <h2 className="text-5xl font-bold text-black">Robotics, Autonomy and Machine Intelligence Group</h2>
           <p className="text-red-500 mt-2 text-xl">A World-class Research Group</p>
         </div>
       </section>
 
       {/* Intro Section */}
-      <section className="intro py-16 bg-white text-center">
-        <div className="container mx-auto px-4">
+      <section className="intro py-16 text-center">
+        <div className="intro-container mx-auto px-4">
+        <h2 className="text-3xl font-bold mb-8">Robotics, Autonomy and Machine Intelligence Group</h2>
           <p className="text-xl">
             Robotics, Autonomy and Machine Intelligence (RAMI) Group led by Prof Nabil Aouf is dedicated to fulfilling customer’s ambitious and innovative requirements. The group steadily establishes itself as a world leader in a range of applications from automatic sensing to processing and AI Autonomy for Data Processing, Robotics, and Unmanned Vehicles to platforms Navigation/Control and Cyber Physical Systems.
           </p>
-          <button className="mt-4 px-6 py-2 bg-red-500 text-white rounded-lg">Read More</button>
+          <Link to="/about" className="mt-4 px-6 py-2 bg-red-500 text-white rounded-lg inline-block">Read More</Link>
         </div>
       </section>
 
@@ -93,13 +95,13 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8">Research Profile</h2>
           <Slider {...settings}>
-            <div>
+            <div className="carousel-item">
               <img src={image1} alt="Navigation" className="carousel-image" />
             </div>
-            <div>
+            <div className="carousel-item">
               <img src={image2} alt="Guidance/Control" className="carousel-image" />
             </div>
-            <div>
+            <div className="carousel-item">
               <img src={image3} alt="Cooperation" className="carousel-image" />
             </div>
           </Slider>

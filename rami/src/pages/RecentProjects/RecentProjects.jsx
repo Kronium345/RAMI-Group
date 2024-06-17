@@ -20,13 +20,13 @@ const RecentProjects = () => {
     <div className="recent-projects">
       <section
         className="hero text-center"
-        style={{ backgroundImage: `url(${bannerImage})`, backgroundSize: 'cover', backgroundPosition: 'center', height: '600px' }}
+        style={{ backgroundImage: `url(${bannerImage})`, backgroundSize: 'cover', backgroundPosition: 'center', height: '300px' }}
       >
         <div className="container mx-auto"></div>
       </section>
 
       <section className="project-gallery py-16 bg-white text-center">
-        <div className="container mx-auto px-4 project-section py-16 bg-gradient-to-r from-blue-200 via-gray-200 to-red-200">
+        <div className="container mx-auto px-4 project-section py-16 bg-gradient-to-r from-blue-200 via-gray-200 to-red-200 w-full">
           <h2 className="text-3xl font-bold mb-8">Project Gallery</h2>
           <div className="project-item">
             <h3 className="text-2xl font-bold mb-4">01 Artificial Intelligence Techniques for GNC Design, Implementation And Verification</h3>

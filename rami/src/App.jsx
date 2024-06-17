@@ -11,6 +11,7 @@ import News1 from './pages/News/News1';
 import News2 from './pages/News/News2';
 import News3 from './pages/News/News3';
 import News4 from './pages/News/News4';
+import About from './pages/About/About';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         Example: <Route path="/second-news" element={<News2 />} />
         Example: <Route path="/third-news" element={<News3 />} />
         Example: <Route path="/fourth-news" element={<News4 />} />
+        Example: <Route path="/about" element={<About />} />
         {/* Example: <Route path="/more" element={<More />} /> */}
       </Routes>
       <Footer />

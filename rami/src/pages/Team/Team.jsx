@@ -8,7 +8,7 @@ import zakariaImage from '../../assets/team/zakaria.png';
 import wangImage from '../../assets/team/wang.png';
 import duarteImage from '../../assets/team/duarte.png';
 import jianingImage from '../../assets/team/jianing.png';
-import maxwellImage from '../../assets/team/max.png';
+import maxwellImage from '../../assets/team/max.jpg';
 import chuyaoImage from '../../assets/team/chuyao.png';
 import burakImage from '../../assets/team/burak.png';
 import amarImage from '../../assets/team/amar.png';
@@ -19,29 +19,27 @@ import davidImage from '../../assets/team/david.png';
 import stathisImage from '../../assets/team/stathis.png';
 import tomImage from '../../assets/team/tom.png';
 import veselinImage from '../../assets/team/veselin.png';
-// import alaaImage from '../../assets/team/alaa.png'; // Placeholder for Alaa's image
+import alaaImage from '../../assets/team/alaa.jpg'; // Placeholder for Alaa's image
+import teamBanner from '../../assets/team/team-banner.png'
 
 const Team = () => {
   return (
     <div className="team-page">
-      <section className="hero-team bg-gray-200 text-center py-16">
-        <div className="container mx-auto">
-          <h1 className="text-5xl font-bold text-gray-800">Team</h1>
-        </div>
+<section
+        className="hero text-center"
+        style={{ backgroundImage: `url(${teamBanner})`, backgroundSize: 'cover', backgroundPosition: 'center', height: '300px' }}
+      >
+        <div className="container mx-auto"></div>
       </section>
       
       <section className="team-section py-16 bg-gradient-to-r from-blue-200 via-gray-200 to-red-200 text-center">
         <div className="container mx-auto px-4">
           <div className="team-category">
-            <h2 className="text-3xl font-bold mb-8">Postdoctoral Researchers</h2>
+            {/* <h2 className="text-3xl font-bold mb-8">Postdoctoral Researchers</h2> */}
             <div className="team-grid">
               <div className="team-member">
                 <img src={nabilImage} alt="Prof. Nabil Aouf" className="team-img" />
                 <p className="team-name">Prof. Nabil Aouf</p>
-              </div>
-              <div className="team-member">
-                <img src={leoImage} alt="Leo Pauli" className="team-img" />
-                <p className="team-name">Leo Pauli</p>
               </div>
             </div>
           </div>
@@ -57,6 +55,10 @@ const Team = () => {
                 <img src={wangImage} alt="Wang Ziwei" className="team-img" />
                 <p className="team-name">Wang Ziwei</p>
               </div>
+              <div className="team-member">
+                <img src={leoImage} alt="Leo Pauly" className="team-img" />
+                <p className="team-name">Leo Pauly</p>
+              </div>
             </div>
           </div>
 
@@ -71,10 +73,10 @@ const Team = () => {
                 <img src={jianingImage} alt="Jianing Song" className="team-img" />
                 <p className="team-name">Jianing Song</p>
               </div>
-              {/* <div className="team-member">
+              <div className="team-member">
                 <img src={alaaImage} alt="Alaa" className="team-img" />
                 <p className="team-name">Alaa</p>
-              </div> */}
+              </div>
               <div className="team-member">
                 <img src={maxwellImage} alt="Maxwell Hogan" className="team-img" />
                 <p className="team-name">Maxwell Hogan</p>
