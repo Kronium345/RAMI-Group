@@ -2,7 +2,7 @@ import React from 'react';
 import './News.css';
 import news1 from '../../assets/news/news1.jpg';
 import news2 from '../../assets/news/news2.png';
-import news3 from '../../assets/news/news3.jpg';
+import news3 from '../../assets/news/news3.png';
 import news4 from '../../assets/news/news4.jpg';
 import { Link } from 'react-router-dom';
 
@@ -19,21 +19,21 @@ const newsItems = [
     title: "Prof. Nabil Aouf and RAMI Group features on Islington Tribune Newspaper",
     description: "Prof. Nabil Aouf and RAMI Group features on Islington Tribune Newspaper",
     image: news2,
-    link: "#"
+    link: "/second-news"
   },
   {
     date: "22 Jun 2022",
     title: "RAMI Group hosted at ESA GSTP conference",
     description: "RAMI group hosted at the ESA GSTP conference organized by European Space Agency - ESA and the Austrian Space Agency (FFG)",
     image: news3,
-    link: "#"
+    link: "/third-news"
   },
   {
     date: "22 Sept 2021",
     title: "RAMI Group launches City's Autonomous Systems and Machine Intelligence Lab",
     description: "RAMI Group launches City's Autonomous Systems and Machine Intelligence Lab",
     image: news4,
-    link: "#"
+    link: "/fourth-news"
   },
 ];
 

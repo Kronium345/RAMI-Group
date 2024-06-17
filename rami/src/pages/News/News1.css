@@ -1,38 +1,71 @@
 /* src/components/News1.css */
 .news1-page {
-    background: #D3EAF7;
-    color: #333;
-    padding: 40px 20px;
-    font-family: Arial, sans-serif;
-  }
-  
-  .news1-container {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  .news1-image {
-    width: 100%;
-    border-radius: 8px;
-  }
-  
-  .news1-content {
-    margin-top: 20px;
-  }
-  
-  .news1-date {
-    font-size: 1em;
-    color: #666;
-    margin-bottom: 10px;
-  }
-  
-  .news1-link {
-    color: #0066cc;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .news1-link:hover {
-    text-decoration: underline;
-  }
-  
+  background: #D3EAF7;
+  color: #333;
+  padding: 120px 20px 40px; /* Adjusted padding to bring the content further down */
+  font-family: Arial, sans-serif;
+  text-align: center;
+  position: relative;
+}
+
+.news1-title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.news1-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.news1-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.news1-content {
+  margin-top: 20px;
+}
+
+.news1-date {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.news1-link {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.news1-link:hover {
+  text-decoration: underline;
+}
+
+.back-button {
+  position: absolute;
+  top: 60px; /* Adjusted position to ensure the back button is accessible */
+  left: 20px;
+  padding: 10px 20px;
+  background-color: #0066cc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.back-button:hover {
+  background-color: #004999;
+}
+
+.arrow {
+  margin-right: 10px;
+}
