@@ -1,4 +1,3 @@
-// src/components/Home.jsx
 import React from 'react';
 // import ramiLogo from '../../assets/rami-logo.png';
 import nabilImage from '../../assets/team/nabil.png';
@@ -26,7 +25,31 @@ const Home = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
   };
+
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={`${className} custom-arrow next`}
+        style={{ ...style }}
+        onClick={onClick}
+      />
+    );
+  }
+
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={`${className} custom-arrow prev`}
+        style={{ ...style }}
+        onClick={onClick}
+      />
+    );
+  }
 
   return (
     <div className="home">
