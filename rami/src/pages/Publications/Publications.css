@@ -9,81 +9,78 @@
     align-items: center;
     justify-content: center;
 }
-  
-.publications-hero h1 {
+
+.publications-hero h2 {
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
 }
-  
+
 /* Publications Content */
 .publications-content {
     padding: 4rem 0;
-    background-color: white;
-    text-align: center;
     background-image: url('../../assets/publications/publications.jpg'); /* Ensure the correct path */
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
-  
+
+.publications-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.8); /* White hue overlay */
+}
+
 .publications-content .container {
-    max-width: 1700px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 1rem;
     display: flex;
     justify-content: space-between;
-    position: relative; /* Add relative positioning */
 }
-  
+
 .publications-content h2 {
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 2rem;
 }
 
-/* Vertical Timeline */
-.vertical-timeline {
-    position: relative;
-    margin: 0;
-    padding: 0;
-}
-  
-.vertical-timeline::before {
-    background: #ccc !important; /* Default vertical line color */
-}
-
-/* Timeline Item */
-.vertical-timeline-element-content {
-    background: #fff !important;
-    color: #000 !important;
-    border-radius: 8px !important;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1) !important;
-}
-  
-.vertical-timeline-element-content-arrow {
-    border-right: 7px solid #ccc !important;
-}
-  
-.vertical-timeline-element-icon {
-    background: #0073e6 !important;
-    color: #fff !important;
-}
-  
-.vertical-timeline-element .fas.fa-book {
-    font-size: 1.5rem;
-}
-  
 /* Separator Line */
 .separator-line {
     position: absolute;
-    top: 50px; /* Start from below the title */
+    top: 0;
     bottom: 0;
     left: 50%;
-    width: 10px; /* Increased width */
+    width: 4px;
     background: red;
     transform: translateX(-50%);
 }
-  
-/* Increase spacing between timelines and separator line */
+
 .timeline-section {
-    margin: 0 2rem; /* Adjust margin for appropriate spacing */
+    flex: 1;
+    margin: 0 1rem;
+    z-index: 1;
+}
+
+.publication {
+    margin-bottom: 2rem;
+}
+
+.publication h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.publication ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.publication ul li {
+    margin-bottom: 1rem;
 }

@@ -12,6 +12,7 @@ import News2 from './pages/News/News2';
 import News3 from './pages/News/News3';
 import News4 from './pages/News/News4';
 import About from './pages/About/About';
+import SocialLinks from './components/SocialLinks/SocialLinks';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         {/* Example: <Route path="/more" element={<More />} /> */}
       </Routes>
       <Footer />
+      <SocialLinks />
     </Router>
   );
 }

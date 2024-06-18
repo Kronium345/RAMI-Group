@@ -1,7 +1,4 @@
 import React from 'react';
-import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
-import { motion } from 'framer-motion';
-import 'react-vertical-timeline-component/style.min.css';
 import './Publications.css';
 
 const journals = [
@@ -292,63 +289,57 @@ const conferences = [
   ]},
 ];
 
-const PublicationCard = ({ title, publications }) => (
-  <VerticalTimelineElement
-    contentStyle={{ background: '#fff', color: '#000' }}
-    contentArrowStyle={{ borderRight: '7px solid #ccc' }}
-    date={title}
-    iconStyle={{ background: '#0073e6', color: '#fff' }}
-    icon={<i className="fas fa-book" />}
-  >
-    <div>
-      <h3 className="text-2xl font-bold">{title}</h3>
-      <ul className="list-disc ml-5">
-        {publications.map((publication, index) => (
-          <li key={index} className="mb-2">{publication}</li>
-        ))}
-      </ul>
-    </div>
-  </VerticalTimelineElement>
-);
+
+
 
 const Publications = () => {
   return (
     <div className="publications-page">
       <section className="publications-hero text-center">
         <div className="container mx-auto">
-          <h2 className="text-5xl font-bold bg-opacity-50 py-4 px-8 inline-block">Publications</h2>
+          <h3 className="text-5xl font-bold py-4 px-8 inline-block">Publications</h3>
         </div>
       </section>
 
-      <motion.section
-        className="publications-content py-16 bg-white text-center"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1 }}
-      >
+      <section className="publications-content py-16 text-center">
         <div className="container mx-auto px-4">
-          <div className="publications-timelines flex justify-between relative">
+          <div className="publications-sections flex justify-between relative">
             <div className="timeline-section">
-              <h2 className="text-3xl font-bold mb-8 text-white">Journals</h2>
-              <VerticalTimeline>
+              <h2 className="text-3xl font-bold mb-8 text-red-600">Journals</h2>
+              <div>
                 {journals.map((journal, index) => (
-                  <PublicationCard key={index} title={journal.year} publications={journal.publications} />
+                  <div key={index} className="publication">
+                    <h3 className="text-xl font-semibold">{journal.year}</h3>
+                    <ul className="list-none ml-5">
+                      {journal.publications.map((publication, idx) => (
+                        <li key={idx} className="mb-2">{publication}</li>
+                      ))}
+                    </ul>
+                  </div>
                 ))}
-              </VerticalTimeline>
+              </div>
             </div>
 
-            <div className="timeline-section">
-              <h2 className="text-3xl font-bold mb-8 text-white">Peer Reviewed Conferences</h2>
-              <VerticalTimeline>
-                {conferences.map((conference, index) => (
-                  <PublicationCard key={index} title={conference.year} publications={conference.publications} />
-                ))}
-              </VerticalTimeline>
-            </div>
             <div className="separator-line"></div>
+
+            <div className="timeline-section">
+              <h2 className="text-3xl font-bold mb-8 text-red-600">Peer Reviewed Conferences</h2>
+              <div>
+                {conferences.map((conference, index) => (
+                  <div key={index} className="publication">
+                    <h3 className="text-xl font-semibold">{conference.year}</h3>
+                    <ul className="list-none ml-5">
+                      {conference.publications.map((publication, idx) => (
+                        <li key={idx} className="mb-2">{publication}</li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
-      </motion.section>
+      </section>
     </div>
   );
 };

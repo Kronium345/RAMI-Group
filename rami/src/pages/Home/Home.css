@@ -2,7 +2,10 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(to right, #D3EAF7, #E2E8F0, #F56565);
+  background-color: #3ABEFF; /* Apply the new background color */
+  background-image: url('../../assets/banner.svg'); /* Apply the SVG background */
+  background-size: cover; /* Ensure the background covers the whole area */
+  background-position: center; /* Center the background image */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,7 +53,7 @@
   margin: 0 auto;
 }
 
-.intro-title{
+.intro-title {
   font-size: 30px;
 }
 

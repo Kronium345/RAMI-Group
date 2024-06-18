@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 
@@ -16,17 +16,17 @@ const links = [
         href: 'https://www.linkedin.com/in/daniel-awolowo-870496211/',
         style: 'rounded-tr-md'
     },
+    // {
+    //     id: 2,
+    //     child: (
+    //         <>
+    //         GitHub <FaGithub size={30} />
+    //         </>
+    //     ),
+    //     href: 'https://github.com/Kronium345',
+    // },
     {
         id: 2,
-        child: (
-            <>
-            GitHub <FaGithub size={30} />
-            </>
-        ),
-        href: 'https://github.com/Kronium345',
-    },
-    {
-        id: 3,
         child: (
             <>
             Mail <HiOutlineMail size={30} />
@@ -35,16 +35,25 @@ const links = [
         href: 'mailto: awolowodaniel@yahoo.ie',
     },
     {
-        id: 4,
+        id: 3,
         child: (
             <>
-            Resume <BsFillPersonLinesFill size={30} />
+            Twitter <FaTwitter size={30} />
             </>
         ),
-        href: '/Daniel Awolowo - CV (1) (1).pdf',
-        style: 'rounded-br-md',
-        download: true,
-    }
+        href: 'https://twitter.com/home',
+    },
+    // {
+    //     id: 3,
+    //     child: (
+    //         <>
+    //         Resume <BsFillPersonLinesFill size={30} />
+    //         </>
+    //     ),
+    //     href: '/Daniel Awolowo - CV (1) (1).pdf',
+    //     style: 'rounded-br-md',
+    //     download: true,
+    // }
 ];
 
   return (
