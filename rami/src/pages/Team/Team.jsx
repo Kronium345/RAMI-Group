@@ -34,7 +34,7 @@ const Team = () => {
         <div className="container mx-auto"></div>
       </section>
 
-      <section className="team-section py-16 bg-gradient-to-r from-blue-200 via-gray-200 to-red-200 text-center">
+      <section className="team-section py-16 bg-gradient-to-r from-blue-300 via-gray-200 to-blue-500 text-center">
         <div className="container mx-auto px-4">
           <div className="team-category">
             <h2 className="text-3xl font-bold mb-8">Academics</h2>

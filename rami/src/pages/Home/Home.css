@@ -2,10 +2,10 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  background-color: #3ABEFF; /* Apply the new background color */
-  background-image: url('../../assets/banner.svg'); /* Apply the SVG background */
-  background-size: cover; /* Ensure the background covers the whole area */
-  background-position: center; /* Center the background image */
+  background: linear-gradient(to right, #3ABEFF, #E2E8F0, #D3EAF7);
+  background-image: url('../../assets/banner.svg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,15 +19,15 @@
 }
 
 .hero-content h2 {
-  font-size: 6rem; /* Increased font size */
+  font-size: 8rem; /* Increased font size */
   font-weight: bold;
   color: #333;
 }
 
 .hero-content p {
+  font-size: 3rem; /* Increased font size */
   color: #e53e3e;
   margin-top: 1rem; /* Increased margin */
-  font-size: 2rem; /* Increased font size */
 }
 
 .logo-container {
@@ -54,7 +54,11 @@
 }
 
 .intro-title {
-  font-size: 30px;
+  font-size: 8rem; /* Increased font size */
+}
+
+.intro-subtitle {
+  font-size: 3rem; /* Increased font size */
 }
 
 .facilities-container {
@@ -73,7 +77,7 @@
   align-items: center;
   max-width: 800px;
   padding: 40px;
-  background-color: #fddde6;
+  background-color: #96C9DC;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

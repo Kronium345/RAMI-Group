@@ -39,7 +39,7 @@ const newsItems = [
 
 const News = () => {
   return (
-    <div className="news-page project-section py-16 bg-gradient-to-r from-blue-200 via-gray-200 to-red-200">
+    <div className="news-page project-section py-16 bg-gradient-to-r from-blue-300 via-gray-200 to-blue-500">
       <h1 className="news-title">Latest News</h1>
       <div className="news-container">
         {newsItems.map((item, index) => (

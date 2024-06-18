@@ -55,7 +55,7 @@ const Home = () => {
   return (
     <div className="home">
       {/* Hero Section */}
-      <section className="hero h-screen flex flex-col items-center justify-center text-center bg-gradient-to-r from-[#D3EAF7] via-[#E2E8F0] to-[#F56565] relative">
+      <section className="hero h-screen flex flex-col items-center justify-center text-center">
         <div className="hero-content">
           <div className="logo-container">
             <img src={ramiLogo} alt="RAMI Logo" className="rami-logo" />
@@ -66,7 +66,7 @@ const Home = () => {
       </section>
 
       {/* Intro Section */}
-      <section className="intro py-16 text-center">
+      <section className="intro py-16 bg-gray-200 text-center">
         <div className="intro-container mx-auto px-4">
           <h2 className="text-4xl font-bold mb-8">Robotics, Autonomy and Machine Intelligence Group</h2>
           <p className="text-xl intro-text">
@@ -105,7 +105,7 @@ const Home = () => {
       </section>
 
       {/* Research Profile Section */}
-      <section className="research-profile py-16 bg-white text-center">
+      <section className="research-profile py-16 bg-blue-200 text-center">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold mb-8">Research Profile</h2>
           <Slider {...settings} className="slider">
@@ -133,7 +133,7 @@ const Home = () => {
       </section>
 
       {/* Tour Section */}
-      <section className="tour py-16 bg-gradient-to-r from-blue-200 via-gray-200 to-red-200 text-center">
+      <section className="tour py-16 bg-gradient-to-r from-blue-300 via-gray-200 to-blue-500 text-center">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold mb-8 text-red-500">Take a Tour</h2>
           <div className="flex flex-col md:flex-row justify-center items-center space-x-4 max-w-4xl mx-auto">

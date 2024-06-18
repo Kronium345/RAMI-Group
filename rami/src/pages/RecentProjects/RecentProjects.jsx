@@ -26,7 +26,7 @@ const RecentProjects = () => {
       </section>
 
       <section className="project-gallery py-16 bg-white text-center">
-        <div className="container mx-auto px-4 project-section py-16 bg-gradient-to-r from-blue-200 via-gray-200 to-red-200 w-full">
+        <div className="container mx-auto px-4 project-section py-16 bg-gradient-to-r w-full">
           <h2 className="text-3xl font-bold mb-8">Project Gallery</h2>
           <div className="project-item">
             <h3 className="text-2xl font-bold mb-4">Artificial Intelligence Techniques for GNC Design, Implementation And Verification</h3>
@@ -92,7 +92,7 @@ const RecentProjects = () => {
       </section>
 
       {/* Other Research Section */}
-      <section className="other-research py-16 bg-gradient-to-r from-purple-200 via-pink-200 to-red-200 text-center">
+      <section className="other-research py-16 bg-gradient-to-r from-blue-300 via-gray-200 to-blue-500 text-center">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8">Other Research</h2>
 

@@ -1,6 +1,6 @@
 /* src/components/news3.css */
 .news3-page {
-    background: #D3EAF7;
+  background: linear-gradient(to right, #D3EAF7, #E2E8F0, #3ABEFF);
     color: #333;
     padding: 120px 20px 40px; /* Adjusted padding to bring the content further down */
     font-family: Arial, sans-serif;
