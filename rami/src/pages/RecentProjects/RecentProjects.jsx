@@ -106,7 +106,7 @@ const RecentProjects = () => {
           </div>
 
           <div className="research-item mb-16">
-            <h3 className="text-2xl font-bold mb-4">Drl for Cubesats</h3>
+            <h3 className="text-2xl font-bold mb-4">Explainable AI for Drones 2D/3D Recognition and Scene understanding</h3>
             <video src={file11} controls className="video-item" />
             <p className="mb-4">
               An uncrewed aerial (or ground) vehicle may utilise object detection to undertake a variety of different tasks. The introduction of Deep Neural Networks has vastly improved the capabilities of object detection. However, it is challenging to deep networks in the wild since they remain opaque, closed box algorithms. Hence, the focus of this project is to develop tools that can assist a developer by providing context behind the detections made by the network. This will allow them to have a greater understanding about the operation and limitations of their deep detector. This area of study is known as Explainable AI (XAI). The explanations are provided in the form of Saliency Maps which show how different parts of the input frame contributed to the network’s output. These saliency maps were generated using KernelSHAP. The work was undertaken with funding and support of the Defense Science and Technology Laboratory (DSTL).
@@ -114,7 +114,7 @@ const RecentProjects = () => {
           </div>
 
           <div className="research-item mb-16">
-            <h3 className="text-2xl font-bold mb-4">Explainable AI for Drones 2D/3D Recognition and Scene Understanding</h3>
+            <h3 className="text-2xl font-bold mb-4">Drl for Cubesats</h3>
               <img src={img4} alt="Project 1" className="mx-auto mb-4" />
             <p className="mb-4">
             Advancements in Reinforcement Learning (RL) algorithms and technologies have opened up new possibilities for their use in autonomous spacecraft control. This work presents two novel Deep Reinforcement Learning (DRL) agents which, when combined, can achieve satellite rendezvous while simultaneously maintaining attitude control. This control method allows for simultaneous, autonomous control that can appropriately actuate a spacecraft even in situations the agent has not previously encountered. The rendezvous controller consists of a Twin- Delayed Deep Deterministic Policy Gradient (TD3) agent that would be able to control a CubeSat and achieve rendezvous with the target satellite. The attitude controller consists of a quaternion-based TD3 agent; it has shown the ability to perform large angle slew manoeuvres and achieve pointing accuracies of less than five degrees error while resisting environmental perturbations. The controller’s feasibility was assessed using a six-Degree-of-Freedom (6-DoF) relative spacecraft dynamics model, along with a model of the spacecraft’s environment. The agents were trained in a simplified environment and subsequently tested in an environment that incorporated disturbance models and actuator noise, providing an evaluation of their capabilities in realistic conditions.	            </p>

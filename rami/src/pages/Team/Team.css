@@ -2,7 +2,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.hero-team {
+.hero {
   text-align: center;
   background: linear-gradient(to right, #D3EAF7, #E2E8F0, #F56565);
   padding: 40px 0;
@@ -51,6 +51,11 @@
   margin-top: 10px;
   color: #E53E3E;
   font-weight: bold;
+}
+
+.team-name-break {
+  display: block;
+  margin-top: -5px;
 }
 
 /* Navbar */

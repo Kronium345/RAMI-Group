@@ -16,26 +16,27 @@
 }
 
 .hero-content h2 {
-  font-size: 3rem;
+  font-size: 6rem; /* Increased font size */
   font-weight: bold;
   color: #333;
 }
 
 .hero-content p {
   color: #e53e3e;
-  margin-top: 0.5rem;
-  font-size: 1.25rem;
+  margin-top: 1rem; /* Increased margin */
+  font-size: 2rem; /* Increased font size */
 }
 
 .logo-container {
   position: absolute;
-  top: 20px;
+  top: 80px; /* Adjust this value to bring the logo downwards */
   left: 20px;
 }
 
 .rami-logo {
-  height: 80px; /* Adjust the height as needed */
-  width: 80px;
+  height: 100px; /* Adjust the height as needed */
+  width: 100px;
+  margin-top: 60px;
 }
 
 .intro, .quote-section, .research-profile, .facilities, .tour, .contact {
@@ -47,6 +48,10 @@
   max-width: 1300px;
   padding: 0 20px;
   margin: 0 auto;
+}
+
+.intro-title{
+  font-size: 30px;
 }
 
 .facilities-container {
@@ -90,7 +95,17 @@
   color: #e53e3e;
 }
 
-.slider img {
+.slider {
+  max-width: 85%; /* Make the carousel 15% smaller */
+  margin: 0 auto; /* Center the carousel */
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-image {
   max-width: 100%;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -200,11 +215,6 @@
   align-items: center;
 }
 
-.carousel-item {
-  flex: 0 0 auto;
-  margin: 0 auto;
-}
-
 .carousel-item img {
   border: 2px solid #333;
 }
@@ -228,11 +238,11 @@
 
 @media (max-width: 768px) {
   .hero-content h1 {
-    font-size: 2rem;
+    font-size: 4rem; /* Increased font size */
   }
 
   .hero-content p {
-    font-size: 1rem;
+    font-size: 1.5rem; /* Increased font size */
   }
 
   .profile-img {
