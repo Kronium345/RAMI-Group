@@ -19,25 +19,25 @@
 }
 
 .home .intro-title {
-  font-size: 4rem; /* Increased font size */
+  font-size: 4rem;
   font-weight: bold;
   color: #333;
 }
 
 .home .intro-subtitle {
-  font-size: 3rem; /* Increased font size */
-  color: #e53e3e;
-  margin-top: 1rem; /* Increased margin */
+  font-size: 3rem;
+  color: #000;
+  margin-top: 1rem;
 }
 
 .home .logo-container {
   position: absolute;
-  top: 80px; /* Adjust this value to bring the logo downwards */
+  top: 80px;
   left: 20px;
 }
 
 .home .rami-logo {
-  height: 100px; /* Adjust the height as needed */
+  height: 100px;
   width: 100px;
   margin-top: 60px;
 }
@@ -61,6 +61,34 @@
   max-width: 1300px;
   padding: 0 20px;
   margin: 0 auto;
+}
+
+.home .research-areas-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.home .research-area-tile {
+  background: white;
+  padding: 1.5rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.home .research-area-tile:hover {
+  transform: scale(1.05);
+}
+
+.home .research-area-tile .icon {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  color: #333;
 }
 
 .home .facilities-container {
@@ -105,8 +133,8 @@
 }
 
 .home .slider {
-  max-width: 85%; /* Make the carousel 15% smaller */
-  margin: 0 auto; /* Center the carousel */
+  max-width: 85%;
+  margin: 0 auto;
 }
 
 .home .carousel-item {
@@ -192,7 +220,6 @@
 .home .custom-arrow {
   width: 50px;
   height: 50px;
-  /* background-color: rgba(255, 255, 255, 0.5); */
   border-radius: 50%;
   z-index: 1;
   display: flex;
@@ -207,10 +234,6 @@
   font-size: 20px;
   color: #333;
 }
-
-/* .home .custom-arrow:hover {
-  background-color: rgba(255, 255, 255, 0.7);
-} */
 
 .home .custom-arrow.next {
   right: -60px;
@@ -242,18 +265,18 @@
 }
 
 .home .intro-text {
-  max-width: 800px; /* Added to make the paragraph more compact */
-  margin: 0 auto;   /* Center the text within the container */
+  max-width: 800px;
+  margin: 0 auto;
   line-height: 1.6;
 }
 
 @media (max-width: 768px) {
   .home .hero-content h2 {
-    font-size: 4rem; /* Increased font size */
+    font-size: 4rem;
   }
 
   .home .hero-content p {
-    font-size: 1.5rem; /* Increased font size */
+    font-size: 1.5rem;
   }
 
   .home .profile-img {

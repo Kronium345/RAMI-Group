@@ -103,11 +103,19 @@ const Team = () => {
               </div>
               <div className="team-member">
                 <img src={alaaImage} alt="Alaa" className="team-img" />
-                <p className="team-name">Alaa</p>
+                <p className="team-name">Alaa Afeneh</p>
+              </div>
+                            <div className="team-member">
+                <img src={burakImage} alt="Burak H" className="team-img" />
+                <p className="team-name">Burak Inan</p>
+              </div>
+              <div className="team-member">
+                <img src={amarImage} alt="Amar M" className="team-img" />
+                <p className="team-name">Amar Khan</p>
               </div>
               <div className="team-member">
                 <FaUserAlt size={150} color="#ccc" />
-                <p className="team-name">Willy Jamoous</p>
+                <p className="team-name">Will Jamous</p>
               </div>
             </div>
           </div>

@@ -1,10 +1,12 @@
 import React from 'react';
-import ramiLogo from '../../assets/rami-logo.png';
+// import ramiLogo from '../../assets/rami-logo.png';
 import nabilImage from '../../assets/team/nabil.png';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
 import './Home.css';
+import { FaMapSigns, FaCamera, FaCogs, FaDatabase, FaVrCardboard, FaRobot } from 'react-icons/fa';
+
 
 // Import carousel images
 import image1 from '../../assets/carousel/image1.png';
@@ -57,9 +59,9 @@ const Home = () => {
       {/* Hero Section */}
       <section className="hero h-screen flex flex-col items-center justify-center text-center">
         <div className="hero-content">
-          <div className="logo-container">
+          {/* <div className="logo-container">
             <img src={ramiLogo} alt="RAMI Logo" className="rami-logo" />
-          </div>
+          </div> */}
           <h2 className="intro-title">Robotics, Autonomy and Machine Intelligence Group</h2>
           <p className="intro-subtitle">A World-class Research Group</p>
         </div>
@@ -75,14 +77,32 @@ const Home = () => {
           <p className="text-3xl intro-text text-red-500 font-bold mt-4">
             Research areas include:
           </p>
-          <ul className="text-xl intro-text list-disc list-inside">
-            <li>Navigation, Guidance and Control</li>
-            <li>Real time Imaging and Embedded Vision based systems</li>
-            <li>Planning and Re-planning (Decision Making)</li>
-            <li>Data Fusion and Mining (for Detection, Recognition and Tracking)</li>
-            <li>Human-Machine Interface/Augmented-Virtual Reality</li>
-            <li>Autonomous Cyber (Cyber Soft/Cyber Physical)</li>
-          </ul>
+          <div className="research-areas-grid">
+            <div className="research-area-tile">
+              <FaMapSigns size={40} />
+              <p>Navigation, Guidance and Control</p>
+            </div>
+            <div className="research-area-tile">
+              <FaCamera size={40} />
+              <p>Real time Imaging and Embedded Vision based systems</p>
+            </div>
+            <div className="research-area-tile">
+              <FaCogs size={40} />
+              <p>Planning and Re-planning (Decision Making)</p>
+            </div>
+            <div className="research-area-tile">
+              <FaDatabase size={40} />
+              <p>Data Fusion and Mining (for Detection, Recognition and Tracking)</p>
+            </div>
+            <div className="research-area-tile">
+              <FaVrCardboard size={40} />
+              <p>Human-Machine Interface/Augmented-Virtual Reality</p>
+            </div>
+            <div className="research-area-tile">
+              <FaRobot size={40} />
+              <p>Autonomous Cyber (Cyber Soft/Cyber Physical)</p>
+            </div>
+          </div>
           {/* <Link to="/about" className="mt-4 px-6 py-2 bg-red-500 text-white rounded-lg inline-block">Read More</Link> */}
         </div>
       </section>
@@ -137,7 +157,7 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold mb-8 text-red-500">Take a Tour</h2>
           <div className="flex flex-col md:flex-row justify-center items-center space-x-4 max-w-4xl mx-auto">
-            <div className="w-full md:w-1/2">
+            <div className="w-full md:w-4/5">
               <video controls className="w-full h-full object-cover rounded-lg shadow-lg">
                 <source src={tourVideo} type="video/webm" />
                 Your browser does not support the video tag.
