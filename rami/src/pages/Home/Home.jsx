@@ -60,8 +60,8 @@ const Home = () => {
           <div className="logo-container">
             <img src={ramiLogo} alt="RAMI Logo" className="rami-logo" />
           </div>
-          <h2 className="intro-title text-3xl font-bold text-black">Robotics, Autonomy and Machine Intelligence Group</h2>
-          <p className="intro-subtitle text-red-500 mt-4 text-2xl">A World-class Research Group</p>
+          <h2 className="intro-title">Robotics, Autonomy and Machine Intelligence Group</h2>
+          <p className="intro-subtitle">A World-class Research Group</p>
         </div>
       </section>
 
@@ -105,7 +105,7 @@ const Home = () => {
       </section>
 
       {/* Research Profile Section */}
-      <section className="research-profile py-16 bg-blue-200 text-center">
+      <section className="research-profile py-16 bg-gradient-to-r from-blue-300 via-gray-200 to-blue-500 text-center">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold mb-8">Research Profile</h2>
           <Slider {...settings} className="slider">

@@ -25,17 +25,17 @@ const links = [
     //     ),
     //     href: 'https://github.com/Kronium345',
     // },
+    // {
+    //     id: 2,
+    //     child: (
+    //         <>
+    //         Mail <HiOutlineMail size={30} />
+    //         </>
+    //     ),
+    //     href: 'mailto: awolowodaniel@yahoo.ie',
+    // },
     {
         id: 2,
-        child: (
-            <>
-            Mail <HiOutlineMail size={30} />
-            </>
-        ),
-        href: 'mailto: awolowodaniel@yahoo.ie',
-    },
-    {
-        id: 3,
         child: (
             <>
             Twitter <FaTwitter size={30} />
