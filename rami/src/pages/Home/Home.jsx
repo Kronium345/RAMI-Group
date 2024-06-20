@@ -5,7 +5,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
 import './Home.css';
-import { FaMapSigns, FaCamera, FaCogs, FaDatabase, FaVrCardboard, FaRobot } from 'react-icons/fa';
+import { FaRoute, FaCamera, FaProjectDiagram, FaDatabase, FaVrCardboard, FaRobot } from 'react-icons/fa';
 
 
 // Import carousel images
@@ -79,28 +79,34 @@ const Home = () => {
           </p>
           <div className="research-areas-grid">
             <div className="research-area-tile">
-              <FaMapSigns size={40} />
-              <p>Navigation, Guidance and Control</p>
+              <FaRoute size={48} className="icon" />
+              <p className="mt-4">Navigation, Guidance and Control</p>
+              <p className="description">Techniques for accurate localization and control of autonomous vehicles.</p>
             </div>
             <div className="research-area-tile">
-              <FaCamera size={40} />
-              <p>Real time Imaging and Embedded Vision based systems</p>
+              <FaCamera size={48} className="icon" />
+              <p className="mt-4">Real time Imaging and Embedded Vision based systems</p>
+              <p className="description">Developing advanced imaging systems for real-time applications.</p>
             </div>
             <div className="research-area-tile">
-              <FaCogs size={40} />
-              <p>Planning and Re-planning (Decision Making)</p>
+              <FaProjectDiagram size={48} className="icon" />
+              <p className="mt-4">Planning and Re-planning (Decision Making)</p>
+              <p className="description">Algorithms for efficient planning and re-planning in dynamic environments.</p>
             </div>
             <div className="research-area-tile">
-              <FaDatabase size={40} />
-              <p>Data Fusion and Mining (for Detection, Recognition and Tracking)</p>
+              <FaDatabase size={48} className="icon" />
+              <p className="mt-4">Data Fusion and Mining (for Detection, Recognition and Tracking)</p>
+              <p className="description">Techniques for integrating and analyzing data from multiple sources.</p>
             </div>
             <div className="research-area-tile">
-              <FaVrCardboard size={40} />
-              <p>Human-Machine Interface/Augmented-Virtual Reality</p>
+              <FaVrCardboard size={48} className="icon" />
+              <p className="mt-4">Human-Machine Interface/Augmented-Virtual Reality</p>
+              <p className="description">Enhancing human interaction with machines through AR/VR technologies.</p>
             </div>
             <div className="research-area-tile">
-              <FaRobot size={40} />
-              <p>Autonomous Cyber (Cyber Soft/Cyber Physical)</p>
+              <FaRobot size={48} className="icon" />
+              <p className="mt-4">Autonomous Cyber (Cyber Soft/Cyber Physical)</p>
+              <p className="description">Developing autonomous systems for cyber-physical applications.</p>
             </div>
           </div>
           {/* <Link to="/about" className="mt-4 px-6 py-2 bg-red-500 text-white rounded-lg inline-block">Read More</Link> */}

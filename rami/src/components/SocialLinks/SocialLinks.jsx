@@ -13,7 +13,7 @@ const links = [
             LinkedIn <FaLinkedin size={30} />
             </>
         ),
-        href: 'https://www.linkedin.com/in/daniel-awolowo-870496211/',
+        href: 'https://www.linkedin.com/in/rami-group-25908b241/',
         style: 'rounded-tr-md'
     },
     // {
@@ -41,7 +41,7 @@ const links = [
             Twitter <FaTwitter size={30} />
             </>
         ),
-        href: 'https://twitter.com/home',
+        href: 'https://twitter.com/group_rami',
     },
     // {
     //     id: 3,
