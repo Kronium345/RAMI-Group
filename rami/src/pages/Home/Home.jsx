@@ -180,11 +180,12 @@ const Home = () => {
       <section className="contact py-16 bg-gray-100 text-center">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold mb-8">Contact</h2>
-          <form>
+          <form action="https://getform.io/f/pamqzkna" method="POST">
+            <input type="hidden" name="access_key" value="ce0afc39-f0e3-49d2-889d-abacd15b3ffa" />
             <h3>Contact Us</h3>
-            <input type="text" placeholder="Your Name" required />
-            <input type="email" placeholder="Your Email" required />
-            <textarea placeholder="Your Message" required></textarea>
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" placeholder="Your Message" required></textarea>
             <button type="submit">
               Send Message
             </button>
