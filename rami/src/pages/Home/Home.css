@@ -20,16 +20,21 @@
 
 .home .intro-title {
   font-size: 4rem;
-  font-style:oblique;
   font-weight: bold;
   color: #333;
+}
+
+.home .intro-text {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 30px;
+  line-height: 1.6;
 }
 
 .home .intro-subtitle {
   font-size: 3rem;
   color: #000;
   margin-top: 1rem;
-  font-style:oblique;
 }
 
 .home .logo-container {
@@ -52,6 +57,107 @@
 .home .contact {
   width: 100%;
   padding: 60px 0;
+}
+
+/* Contact Section */
+.home .contact {
+  background: #f9f9f9;
+  padding: 60px 0; /* Add padding to ensure space around the section */
+}
+
+.home .contact .container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center; /* Center the text within the container */
+}
+
+.home .contact h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.home .contact form {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.home .contact form input,
+.home .contact form textarea {
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: #F5F5F5;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+.home .contact form button {
+  padding: 15px;
+  background: #FF5361;
+  color: #fff;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  margin: 20px auto 0;
+  border-radius: 30px;
+}
+
+.home .contact form button img {
+  height: 15px;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.home .contact .contact-inputs:focus {
+  border: 2px solid #ff994f;
+}
+
+.home .contact .contact-inputs::placeholder {
+  color: #a9a9a9;
+}
+
+.home .contact .contact-map {
+  flex: 1;
+  margin-right: 20px;
+  width: 450px;
+  height: 650px; /* Set the height to match the form */
+  border-radius: 10px;
+}
+
+.home .contact .contact-form {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .home .contact .container {
+    flex-direction: column;
+  }
+
+  .home .contact .contact-map,
+  .home .contact .contact-form {
+    width: 100%;
+    height: auto; /* Ensure it resizes properly on smaller screens */
+  }
+}
+
+
+
+.home .research-profile {
+  background-color: #CDCDCD;
+}
+
+.home .tour {
+  background-color: #CDCDCD;
 }
 
 .home .intro .container,
@@ -87,8 +193,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 300px; /* Fixed width */
-  height: 300px; /* Fixed height */
+  width: 300px;
+  height: 300px;
 }
 
 .home .research-area-tile:hover {
@@ -122,7 +228,7 @@
   align-items: center;
   max-width: 800px;
   padding: 40px;
-  background-color: #96C9DC;
+  background-color: #CDCDCD;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -145,6 +251,7 @@
 .home .quote-author {
   font-size: 1rem;
   color: #e53e3e;
+  font-weight: bold;
 }
 
 .home .slider {
@@ -231,58 +338,26 @@
   color: #a9a9a9;
 }
 
-/* Custom Arrow Styling */
-.home .custom-arrow {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  z-index: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+.home .contact-map {
+  flex: 1;
+  margin-right: 20px;
+  width: 100%; /* Full width */
+  height: auto; /* Adjust height */
+  max-width: 600px; /* Maximum width */
+  max-height: 450px; /* Maximum height */
 }
 
-.home .custom-arrow:before {
-  font-size: 20px;
-  color: #333;
+.home .contact-form {
+  flex: 1;
 }
 
-.home .custom-arrow.next {
-  right: -60px;
-}
-
-.home .custom-arrow.prev {
-  left: -60px;
-}
-
-.home .carousel-inner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.home .carousel-item img {
-  border: 2px solid #333;
-}
-
-.home .facilities h2 {
-  color: #e53e3e;
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-
-.home .facilities p {
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.home .intro-text {
-  max-width: 800px;
-  margin: 0 auto;
-  line-height: 1.6;
+iframe {
+  margin: auto;
+  width: 50%; /* Adjusted to take full width for a wider map display */
+  height: 50%; /* Adjusted to take full width for a wider map display */
+  padding: 0 50px;
+  padding-top: 15px;
+  height: 290px;
 }
 
 @media (max-width: 768px) {
@@ -306,6 +381,7 @@
 
   .home .quote-author {
     font-size: 0.875rem;
+    font-weight: 900;
   }
 
   .home .custom-arrow {
@@ -323,5 +399,11 @@
 
   .home .custom-arrow.prev {
     left: -40px;
+  }
+
+  .home .contact .contact-map,
+  .home .contact .contact-form {
+    width: 100%;
+    margin-bottom: 20px;
   }
 }

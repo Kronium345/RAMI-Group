@@ -3,8 +3,6 @@ import img1 from '../../assets/recentprojects/img1.png';
 import file4 from '../../assets/recentprojects/file4.mp4';
 import img3 from '../../assets/recentprojects/img3.png';
 import img4 from '../../assets/recentprojects/img4.png';
-
-import bannerImage from '../../assets/recentprojects/rpbannerImage.png';
 import file7 from '../../assets/recentprojects/file7.mp4';
 import file2 from '../../assets/recentprojects/file2.mp4';
 import file6 from '../../assets/recentprojects/file6.mp4';
@@ -18,11 +16,10 @@ import './RecentProjects.css';
 const RecentProjects = () => {
   return (
     <div className="recent-projects">
-      <section
-        className="hero text-center"
-        style={{ backgroundImage: `url(${bannerImage})`, backgroundSize: 'cover', backgroundPosition: 'center', height: '300px' }}
-      >
-        <div className="container mx-auto"></div>
+      <section className="projects-hero text-center">
+        <div className="container mx-auto">
+          <h3 className="text-5xl font-bold py-4 px-8 inline-block mt-12">Recent Projects</h3>
+        </div>
       </section>
 
       <section className="project-gallery py-16 bg-white text-center">
@@ -54,12 +51,11 @@ const RecentProjects = () => {
 
           <div className="project-item">
             <h3 className="text-2xl font-bold mb-4">Artificial Intelligence for Detection of Explosive Device AIDED</h3>
-            <video src={file6} controls className="video-item" />
+            <video src={file6} controls className="video-item mx-auto mb-4" style={{ maxWidth: '600px' }} />
             <p className="mb-4">
               AIDED is a European project part of H2020 and funded by the European Defence Agency (EDA). The project aims to counter explosive ordnances (EOs) through the development of an AI- enabled robotic swarm that can be sent out in advance to detect and classify EOs in the terrain, thereby keeping the human soldiers out of harm’s way. Aside from the devastating loss in human lives, the use of improvised explosive devices (IEDs) by adversaries also significantly hampers and slows down military operations, as the cleaning process is very slow, tedious and costly. AIDED works towards solving this issue by developing advanced AI-processing techniques for the detection and classification of EO threats quickly and efficiently supported by automated and complex mission planning.
             </p>
           </div>
-
 
           <div className="project-item">
             <h3 className="text-2xl font-bold mb-4">Trust Through Explainability of AI Based Space Software</h3>
@@ -83,7 +79,7 @@ const RecentProjects = () => {
 
           <div className="project-item">
             <h3 className="text-2xl font-bold mb-4">Deep Neural Network Based LIDAR Navigation for Space Landing operations</h3>
-            <video src={file3} controls className="video-item" />
+            <video src={file3} controls className="video-item mx-auto mb-4" style={{ maxWidth: '600px' }} />
             <p className="mb-4">
               The project is funded by the prestigious body European Space Agency (ESA) and presents an AI navigation architecture to predict a spacecraft odometry, that is suitable for space landing operations using a 3D Light Detection and Ranging (LIDAR) sensor. The solution takes advantage of recent advances in deep learning techniques. Leveraging the convolutional neural networks for feature learning that can help with real-time estimation for a rigid body transformation. Simulated scenarios using PANGU software (Planet and Asteroid Natural scene Generation Utility) to generate LiDAR data presented in three different images (Range, Slope and Elevation). The hardware implementation and validation including sensor’s installation and configuration on a chosen dynamic test bench platform in order to obtain realistic LiDAR data, from a synthetic representative lunar terrain during a simulated landing trajectory at CITY Autonomous System and Machine Intelligence Lab (ASMIL).
             </p>
@@ -92,14 +88,12 @@ const RecentProjects = () => {
       </section>
 
       {/* Other Research Section */}
-      <section className="other-research py-16 bg-gradient-to-r from-blue-300 via-gray-200 to-blue-500 text-center">
+      <section className="other-research py-16 text-center">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8">Other Research</h2>
-
-
           <div className="research-item mb-16">
             <h3 className="text-2xl font-bold mb-4">Trajectory Planning and Perception for Autonomous Vehicles</h3>
-            <video src={file9} controls className="video-item" />
+            <video src={file9} controls className="video-item mx-auto mb-4" style={{ maxWidth: '600px' }} />
             <p className="mb-4">
               This project aims to develop artificial intelligence based autonomous driving in complex urban scenarios. To accomplish the objective self-driving car needs to maintain high robustness while facing challenges from dynamic transportation and critical weather conditions. The solution consists of a real-time perception system and a novel decision-making model. To enhance the understanding of surrounding environment, vision-based depth estimation and semantic segmentation approaches are acquired for scene geometry and semantic information. Then fed from the perception model, planning system generates driving commands controlling the vehicle.
             </p>
@@ -107,7 +101,7 @@ const RecentProjects = () => {
 
           <div className="research-item mb-16">
             <h3 className="text-2xl font-bold mb-4">Explainable AI for Drones 2D/3D Recognition and Scene understanding</h3>
-            <video src={file11} controls className="video-item" />
+            <video src={file11} controls className="video-item mx-auto mb-4" style={{ maxWidth: '600px' }} />
             <p className="mb-4">
               An uncrewed aerial (or ground) vehicle may utilise object detection to undertake a variety of different tasks. The introduction of Deep Neural Networks has vastly improved the capabilities of object detection. However, it is challenging to deep networks in the wild since they remain opaque, closed box algorithms. Hence, the focus of this project is to develop tools that can assist a developer by providing context behind the detections made by the network. This will allow them to have a greater understanding about the operation and limitations of their deep detector. This area of study is known as Explainable AI (XAI). The explanations are provided in the form of Saliency Maps which show how different parts of the input frame contributed to the network’s output. These saliency maps were generated using KernelSHAP. The work was undertaken with funding and support of the Defense Science and Technology Laboratory (DSTL).
             </p>

@@ -1,12 +1,10 @@
 import React from 'react';
-// import ramiLogo from '../../assets/rami-logo.png';
 import nabilImage from '../../assets/team/nabil.png';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
 import './Home.css';
 import { FaRoute, FaCamera, FaProjectDiagram, FaDatabase, FaVrCardboard, FaRobot } from 'react-icons/fa';
-
 
 // Import carousel images
 import image1 from '../../assets/carousel/image1.png';
@@ -18,7 +16,6 @@ import gridImage from '../../assets/grid-image.jpeg';
 
 // Import video
 import tourVideo from '../../assets/file-video.mp4';
-import { Link } from 'react-router-dom';
 
 const Home = () => {
   const settings = {
@@ -59,10 +56,7 @@ const Home = () => {
       {/* Hero Section */}
       <section className="hero h-screen flex flex-col items-center justify-center text-center">
         <div className="hero-content">
-          {/* <div className="logo-container">
-            <img src={ramiLogo} alt="RAMI Logo" className="rami-logo" />
-          </div> */}
-          <h2 className="intro-title">Robotics, Autonomy and Machine Intelligence Group</h2>
+          <h2 className="intro-title">Robotics, Autonomy and Machine Intelligence Group (RAMI)</h2>
           <p className="intro-subtitle">A World-class Research Group</p>
         </div>
       </section>
@@ -109,7 +103,6 @@ const Home = () => {
               <p className="description">Developing autonomous systems for cyber-physical applications.</p>
             </div>
           </div>
-          {/* <Link to="/about" className="mt-4 px-6 py-2 bg-red-500 text-white rounded-lg inline-block">Read More</Link> */}
         </div>
       </section>
 
@@ -124,14 +117,14 @@ const Home = () => {
               <p className="text-xl quote-text">
                 "I'd like to welcome you to my group webpage. You can navigate through the tabs to check out our exciting projects and read more about RAMI. You can find my research profile and facilities below."
               </p>
-              <p className="quote-author">Prof. Nabil Aouf</p>
+              <p className="quote-author">—— Prof. Nabil Aouf</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Research Profile Section */}
-      <section className="research-profile py-16 bg-gradient-to-r from-blue-300 via-gray-200 to-blue-500 text-center">
+      <section className="research-profile py-16 bg-gradient-to-r text-center">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold mb-8">Research Profile</h2>
           <Slider {...settings} className="slider">
@@ -143,6 +136,11 @@ const Home = () => {
             </div>
             <div className="carousel-item">
               <img src={image3} alt="Cooperation" className="carousel-image" />
+            </div>
+            <div className="carousel-item">
+              <div className="placeholder-box">
+                <p>Placeholder</p>
+              </div>
             </div>
           </Slider>
         </div>
@@ -159,7 +157,7 @@ const Home = () => {
       </section>
 
       {/* Tour Section */}
-      <section className="tour py-16 bg-gradient-to-r from-blue-300 via-gray-200 to-blue-500 text-center">
+      <section className="tour py-16 bg-gradient-to-r text-center">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold mb-8 text-red-500">Take a Tour</h2>
           <div className="flex flex-col md:flex-row justify-center items-center space-x-4 max-w-4xl mx-auto">
@@ -180,16 +178,27 @@ const Home = () => {
       <section className="contact py-16 bg-gray-100 text-center">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold mb-8">Contact</h2>
-          <form action="https://getform.io/f/pamqzkna" method="POST">
-            <input type="hidden" name="access_key" value="ce0afc39-f0e3-49d2-889d-abacd15b3ffa" />
-            <h3>Contact Us</h3>
-            <input type="text" name="name" placeholder="Your Name" required />
-            <input type="email" name="email" placeholder="Your Email" required />
-            <textarea name="message" placeholder="Your Message" required></textarea>
-            <button type="submit">
-              Send Message
-            </button>
-          </form>
+          <div className="flex flex-col md:flex-row justify-center items-center space-x-4 max-w-4xl mx-auto">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.1954330252393!2d-0.10503732387117895!3d51.527975209200655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ca7b1d83351%3A0x570d19c20ab22a83!2sCity%2C%20University%20of%20London!5e0!3m2!1sen!2suk!4v1715594705860!5m2!1sen!2suk"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="contact-map"
+            ></iframe>
+            <form action="https://getform.io/f/pamqzkna" method="POST" className="contact-form">
+              <input type="hidden" name="access_key" value="ce0afc39-f0e3-49d2-889d-abacd15b3ffa" />
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input type="email" name="email" placeholder="Your Email" required />
+              <textarea name="message" placeholder="Your Message" required></textarea>
+              <button type="submit">
+                Send Message
+              </button>
+            </form>
+          </div>
         </div>
       </section>
     </div>
