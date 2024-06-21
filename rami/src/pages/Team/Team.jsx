@@ -60,23 +60,23 @@ const Team = () => {
             <div className="team-grid">
               <div className="team-member">
                 <img src={zakariaImage} alt="Zakaria Chekatta" className="team-img" />
-                <p className="team-name">Zakaria Chekatta</p>
+                <p className="team-name">Dr. Zakaria Chekatta</p>
               </div>
               <div className="team-member">
                 <img src={wangImage} alt="Wang Ziwei" className="team-img" />
-                <p className="team-name">Wang Ziwei</p>
+                <p className="team-name">Dr. Wang Ziwei</p>
               </div>
               <div className="team-member">
                 <img src={leoImage} alt="Leo Pauly" className="team-img" />
-                <p className="team-name">Leo Pauly</p>
+                <p className="team-name">Dr. Leo Pauly</p>
               </div>
               <div className="team-member">
                 <img src={duarteImage} alt="Duarte Rondao" className="team-img" />
-                <p className="team-name">Duarte Rondao</p>
+                <p className="team-name">Dr. Duarte Rondao</p>
               </div>
               <div className="team-member">
                 <img src={jianingImage} alt="Jianing Song" className="team-img" />
-                <p className="team-name">Jianing Song</p>
+                <p className="team-name">Dr. Jianing Song</p>
               </div>
             </div>
           </div>
@@ -86,35 +86,37 @@ const Team = () => {
             <div className="team-grid">
               <div className="team-member">
                 <img src={maxwellImage} alt="Maxwell Hogan" className="team-img" />
-                <p className="team-name">Dr. Maxwell Hogan</p>
+                <p className="team-name"> Maxwell Hogan</p>
               </div>
               <div className="team-member">
                 <img src={chuyaoImage} alt="Chuyao Wang" className="team-img" />
-                <p className="team-name">Dr. Chuyao Wang</p>
+                <p className="team-name"> Chuyao Wang</p>
               </div>
               <div className="team-member">
                 <img src={abdullaImage} alt="Abdulla Tammam" className="team-img" />
-                <p className="team-name">Dr. Abdulla Tammam</p>
+                <p className="team-name"> Abdulla Tammam</p>
               </div>
               <div className="team-member">
                 <img src={tomImage} alt="Thomas Hickling" className="team-img" />
-                <p className="team-name">Dr. Thomas Hickling</p>
+                <p className="team-name"> Thomas Hickling</p>
               </div>
               <div className="team-member">
                 <img src={alaaImage} alt="Alaa" className="team-img" />
-                <p className="team-name">Dr. Alaa Afeneh</p>
+                <p className="team-name"> Alaa Afeneh</p>
               </div>
-                            <div className="team-member">
+              <div className="team-member">
                 <img src={burakImage} alt="Burak H" className="team-img" />
-                <p className="team-name">Dr. Burak Inan</p>
+                <p className="team-name"> Burak Inan</p>
               </div>
               <div className="team-member">
                 <img src={amarImage} alt="Amar M" className="team-img" />
-                <p className="team-name">Dr. Amar Khan</p>
+                <p className="team-name"> Amar Khan</p>
               </div>
               <div className="team-member">
-                <FaUserAlt size={150} color="#ccc" />
-                <p className="team-name">Dr. Will Jamous</p>
+                <div className="fa-user-alt-wrapper">
+                  <FaUserAlt size={150} color="#" />
+                </div>                
+                <p className="team-name"> Will Jamous</p>
               </div>
             </div>
           </div>

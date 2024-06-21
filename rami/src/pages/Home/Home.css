@@ -3,7 +3,7 @@
   width: 100%;
   height: 100vh;
   background: linear-gradient(to right, #3ABEFF, #E2E8F0, #D3EAF7);
-  background-image: url('../../assets/banner.svg');
+  background-image: url('../../assets/banner6.png');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -27,12 +27,18 @@
 .home .intro-text {
   max-width: 800px;
   margin: 0 auto;
-  margin-top: 30px;
   line-height: 1.6;
 }
 
+.home .intro-subtext {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+  margin-top: 90px;
+}
+
 .home .intro-subtitle {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #000;
   margin-top: 1rem;
 }
@@ -101,7 +107,7 @@
 
 .home .contact form button {
   padding: 15px;
-  background: #FF5361;
+  background: #EF4444;
   color: #fff;
   font-size: 18px;
   border: 0;
@@ -338,18 +344,22 @@
   color: #a9a9a9;
 }
 
+/* Adjusting .contact-map to be wider */
 .home .contact-map {
   flex: 1;
   margin-right: 20px;
   width: 100%; /* Full width */
-  height: auto; /* Adjust height */
+  height: 100%; /* Full height */
   max-width: 600px; /* Maximum width */
   max-height: 450px; /* Maximum height */
 }
 
+/* Ensure the form also uses the same height to match the map */
 .home .contact-form {
   flex: 1;
+  height: 100%; /* Full height */
 }
+
 
 iframe {
   margin: auto;

@@ -304,7 +304,7 @@ const Publications = () => {
         <div className="container mx-auto px-4">
           <div className="publications-sections flex justify-between relative">
             <div className="timeline-section">
-              <h2 className="text-3xl font-bold mb-8 text-red-600">Journals</h2>
+              <h2 className="text-3xl font-bold mb-8 text-black-600">Journals</h2>
               <div>
                 {journals.map((journal, index) => (
                   <div key={index} className="publication">
@@ -321,7 +321,7 @@ const Publications = () => {
             <div className="separator-line"></div>
 
             <div className="timeline-section">
-              <h2 className="text-3xl font-bold mb-8 text-red-600 text-center">Peer-Reviewed Conferences</h2>
+              <h2 className="text-3xl font-bold mb-8 text-black-600 text-center">Peer-Reviewed Conferences</h2>
               <div>
                 {conferences.map((conference, index) => (
                   <div key={index} className="publication">

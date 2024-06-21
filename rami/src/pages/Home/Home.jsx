@@ -65,10 +65,10 @@ const Home = () => {
       <section className="intro py-16 bg-gray-200 text-center">
         <div className="intro-container mx-auto px-4">
           <h2 className="text-4xl font-bold mb-8">Robotics, Autonomy and Machine Intelligence Group</h2>
-          <p className="text-xl intro-text">
+          <p className="text-xl intro-text mb-20">
             Robotics, Autonomy and Machine Intelligence (RAMI) Group led by Prof Nabil Aouf is dedicated to fulfilling customer’s ambitious and innovative requirements. The group steadily establishes itself as a world leader in a range of applications from automatic sensing to processing and AI Autonomy for Data Processing, Robotics, and Unmanned Vehicles to platforms Navigation/Control and Cyber Physical Systems.
           </p>
-          <p className="text-3xl intro-text text-red-500 font-bold mt-4">
+          <p className="text-3xl intro-subtext text-black-500 font-bold mt-2">
             Research areas include:
           </p>
           <div className="research-areas-grid">
@@ -159,7 +159,7 @@ const Home = () => {
       {/* Tour Section */}
       <section className="tour py-16 bg-gradient-to-r text-center">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold mb-8 text-red-500">Take a Tour</h2>
+          <h2 className="text-4xl font-bold mb-8 text-black-500">Take a Tour</h2>
           <div className="flex flex-col md:flex-row justify-center items-center space-x-4 max-w-4xl mx-auto">
             <div className="w-full md:w-4/5">
               <video controls className="w-full h-full object-cover rounded-lg shadow-lg">
@@ -178,13 +178,13 @@ const Home = () => {
       <section className="contact py-16 bg-gray-100 text-center">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold mb-8">Contact</h2>
-          <div className="flex flex-col md:flex-row justify-center items-center space-x-4 max-w-4xl mx-auto">
+          <div className="flex flex-col md:flex-row justify-center items-center space-x-4 max-w-10xl mx-auto">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.1954330252393!2d-0.10503732387117895!3d51.527975209200655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ca7b1d83351%3A0x570d19c20ab22a83!2sCity%2C%20University%20of%20London!5e0!3m2!1sen!2suk!4v1715594705860!5m2!1sen!2suk"
-              width="100%"
-              height="100%"
+              // width="100%"
+              // height="100%"
               style={{ border: 0 }}
-              allowFullScreen=""
+              allowFullScreen={true}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               className="contact-map"
