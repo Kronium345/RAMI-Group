@@ -22,13 +22,13 @@ import tomImage from '../../assets/team/tom.png';
 import tomChenImage from '../../assets/team/tom-chen.png';
 import veselinImage from '../../assets/team/veselin.png';
 import alaaImage from '../../assets/team/alaa.jpg'; // Placeholder for Alaa's image
-// import teamBanner from '../../assets/team/team-banner.png';
+import teamBanner from '../../assets/team/team-banner.jpg';
 
 const Team = () => {
   return (
     <div className="team-page">
-      <section className="team-hero text-center">
-        <div className="container mx-auto">
+      <section className="team-hero text-center" style={{ backgroundImage: `url(${teamBanner})` }}> {/* Add backgroundImage style */}
+        <div className="team-container mx-auto">
           <h3 className="text-5xl font-bold py-4 px-8 inline-block mt-12">Team</h3>
         </div>
       </section>
@@ -50,7 +50,7 @@ const Team = () => {
             <div className="team-grid">
               <div className="team-member">
                 <img src={abdelhafidImage} alt="Abdelhafid Zenati" className="team-img" />
-                <p className="team-name">Dr. Abdelhafid Zenati</p>
+                <p className="team-name">Dr. Abdelhafid Zenati (Lecturer)</p>
               </div>
             </div>
           </div>
@@ -115,7 +115,7 @@ const Team = () => {
               <div className="team-member">
                 <div className="fa-user-alt-wrapper">
                   <FaUserAlt size={150} color="#" />
-                </div>                
+                </div>
                 <p className="team-name"> Will Jamous</p>
               </div>
             </div>

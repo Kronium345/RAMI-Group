@@ -1,31 +1,15 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import ramiLogo from '../../assets/rami-logo.png';
+// import ramiLogo from '../../assets/rami-logo.png';
 
 const Navbar = () => {
-  useEffect(() => {
-    const handleScroll = () => {
-      const navbar = document.querySelector('.navbar');
-      if (window.scrollY > 20) {
-        navbar.classList.add('sticky');
-      } else {
-        navbar.classList.remove('sticky');
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
   return (
     <nav className="navbar">
       <div className="container mx-auto px-4 py-2 flex justify-between items-center">
         <div className="logo">
           <Link to="/" className="text-xl font-bold">
-            <img src={ramiLogo} alt="" />
+            <p>RAMI</p>
           </Link>
         </div>
         <ul className="flex space-x-6">
