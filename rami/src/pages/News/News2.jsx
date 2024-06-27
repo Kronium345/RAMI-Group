@@ -1,4 +1,3 @@
-// src/components/News2.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './News2.css';
@@ -8,9 +7,11 @@ import articleImage from '../../assets/news/news2-zoom.png'; // Add the correct 
 const News2 = () => {
   return (
     <div className="news2-page">
-      <Link to="/news" className="back-button">
-        <span className="arrow">&larr;</span> Back
-      </Link>
+      <div className="back-button-container">
+        {/* <Link to="/news" className="back-button">
+          <span className="arrow">&larr;</span> Back
+        </Link> */}
+      </div>
       <h1 className="news2-title">Prof. Nabil Aouf and RAMI Group features on Islington Tribune Newspaper</h1>
       <div className="news2-container">
         <img src={newsImage} alt="Drone" className="news2-image" />

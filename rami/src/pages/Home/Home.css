@@ -2,8 +2,7 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(to right, #3ABEFF, #E2E8F0, #D3EAF7);
-  background-image: url('../../assets/final-banner.jpg');
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../assets/final-banner.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -11,6 +10,17 @@
   justify-content: center;
   text-align: center;
   overflow: hidden;
+}
+
+.home .hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.1); /* Adjust the opacity here */
+  z-index: 0;
 }
 
 .home .hero-content {
@@ -21,7 +31,7 @@
 .home .intro-title {
   font-size: 4rem;
   font-weight: bold;
-  color: #333;
+  color: #000;
 }
 
 .home .intro-text {
@@ -65,9 +75,13 @@
   padding: 60px 0;
 }
 
+.home .quote-section{
+  background: #F5F5F5;
+}
+
 /* Contact Section */
 .home .contact {
-  background: #f9f9f9;
+  background: #e0e0e0;
   padding: 60px 0; /* Add padding to ensure space around the section */
 }
 
@@ -156,8 +170,6 @@
   }
 }
 
-
-
 .home .research-profile {
   background-color: #CDCDCD;
 }
@@ -216,6 +228,7 @@
   margin-top: 1rem;
   font-size: 1rem;
   color: #555;
+  font-weight: normal;
 }
 
 .home .facilities-container {
@@ -234,7 +247,7 @@
   align-items: center;
   max-width: 800px;
   padding: 40px;
-  background-color: #CDCDCD;
+  background-color: white;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -271,7 +284,8 @@
 }
 
 .home .carousel-image {
-  max-width: 100%;
+  width: inherit;  /* Ensure the image size is the same as its parent container */
+  height: inherit; /* Ensure the image size is the same as its parent container */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border: 2px solid #333;
@@ -282,6 +296,12 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 100%;
+  height: 100%;
+}
+
+.home .tour-video-container {
+  width: 100%;
+  height: auto;
 }
 
 .home .contact {
@@ -360,7 +380,6 @@
   height: 100%; /* Full height */
 }
 
-
 iframe {
   margin: auto;
   width: 50%; /* Adjusted to take full width for a wider map display */
@@ -369,6 +388,25 @@ iframe {
   padding-top: 15px;
   height: 290px;
 }
+
+.arrow-icon {
+  font-size: 3rem;
+  color: #333;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 1;
+}
+
+.arrow-left {
+  left: -80px;
+}
+
+.arrow-right {
+  right: -80px;
+}
+
 
 @media (max-width: 768px) {
   .home .hero-content h2 {

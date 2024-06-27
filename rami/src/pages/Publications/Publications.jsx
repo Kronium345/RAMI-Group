@@ -1,6 +1,6 @@
 import React from 'react';
 import './Publications.css';
-import publicationsBanner from '../../assets/publications/publications-banner.jpg';
+import publicationsBanner from '../../assets/publications/publications-banner-new.jpg';
 
 
 const journals = [
@@ -255,9 +255,9 @@ const Publications = () => {
             <div className="timeline-section">
               <h2 className="text-3xl font-bold mb-8 text-black-600">Journals</h2>
               <div>
-                <ul className="list-none ml-5">
+                <ul className="list-none ml-5 text-lg leading-relaxed">
                   {numberedJournals.map((publication, idx) => (
-                    <li key={idx} className="mb-2">{publication}</li>
+                    <li key={idx} className="mb-4">{publication}</li>
                   ))}
                 </ul>
               </div>
@@ -268,9 +268,9 @@ const Publications = () => {
             <div className="timeline-section">
               <h2 className="text-3xl font-bold mb-8 text-black-600 text-center">Peer-Reviewed Conferences</h2>
               <div>
-                <ul className="list-none ml-5">
+                <ul className="list-none ml-5 text-lg leading-relaxed">
                   {numberedConferences.map((publication, idx) => (
-                    <li key={idx} className="mb-2">{publication}</li>
+                    <li key={idx} className="mb-4">{publication}</li>
                   ))}
                 </ul>
               </div>

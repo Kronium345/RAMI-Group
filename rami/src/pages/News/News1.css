@@ -1,8 +1,8 @@
-/* src/components/News1.css */
+/* News1.css */
 .news1-page {
-  background-color: #CDCDCD !important; /* Changed from gradient to solid color */
+  background-color: #f0f0f0; /* lighter grey background */
   color: #333;
-  padding: 120px 20px 40px; /* Adjusted padding to bring the content further down */
+  padding: 80px 20px 40px;
   font-family: Arial, sans-serif;
   text-align: center;
   position: relative;
@@ -12,12 +12,17 @@
   font-size: 2.5em;
   margin-bottom: 20px;
   color: #333;
+  font-weight: bold; /* bold title */
 }
 
 .news1-container {
   max-width: 800px;
   margin: 0 auto;
   text-align: left;
+}
+
+.news1-text{
+  font-size: 1.5rem;
 }
 
 .news1-image {
@@ -31,12 +36,18 @@
 }
 
 .news1-date {
-  font-size: 1em;
+  font-size: 1.5em; /* increased font-size */
   color: #666;
   margin-bottom: 10px;
+  align-items: center;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+
 }
 
 .news1-link {
+  font-size: 1.5em; /* increased font-size */
   color: #EF4444;
   text-decoration: none;
   font-weight: bold;
@@ -49,12 +60,17 @@
   text-decoration: underline;
 }
 
+.back-button-container {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
 .back-button {
-  position: absolute;
-  top: 60px; /* Adjusted position to ensure the back button is accessible */
-  left: 20px;
   padding: 10px 20px;
-  background-color: #0066cc;
+  background-color: #333; /* dark grey background */
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -63,7 +79,7 @@
 }
 
 .back-button:hover {
-  background-color: #004999;
+  background-color: #555; /* slightly lighter grey */
 }
 
 .arrow {

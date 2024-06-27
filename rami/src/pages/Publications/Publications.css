@@ -25,11 +25,11 @@
     text-align: center; /* Center the text */
     max-width: 600px; /* Adjust the width as needed */
     margin: 0 auto; /* Center the container horizontally */
-  }
-  
-  .publications-container h3 {
+}
+
+.publications-container h3 {
     margin: 0; /* Ensure no extra margin around the text */
-  }
+}
 
 /* Publications Content */
 .publications-content {
@@ -47,7 +47,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(255, 255, 255, 0.8); /* White hue overlay */
+    background-color: rgba(255, 255, 255, 0.9); /* White hue overlay (increased whiteness) */
 }
 
 .publications-content .container {
@@ -59,7 +59,7 @@
 }
 
 .publications-content h2 {
-    font-size: 2rem;
+    font-size: 2.5rem; /* Increased font size */
     font-weight: bold;
     margin-bottom: 2rem;
 }
@@ -86,7 +86,7 @@
 }
 
 .publication h3 {
-    font-size: 1.25rem;
+    font-size: 1.5rem; /* Increased font size */
     font-weight: bold;
 }
 
@@ -97,4 +97,12 @@
 
 .publication ul li {
     margin-bottom: 1rem;
+}
+
+.text-lg {
+    font-size: 1.125rem; /* Increased font size for list items */
+}
+
+.leading-relaxed {
+    line-height: 1.75; /* Adjusted line spacing for readability */
 }

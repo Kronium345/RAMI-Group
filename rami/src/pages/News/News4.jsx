@@ -8,9 +8,11 @@ import newsExtra from '../../assets/news/news4-extra.jpg';
 const News4 = () => {
   return (
     <div className="news4-page">
-      <Link to="/news" className="back-button">
-        <span className="arrow">&larr;</span> Back
-      </Link>
+      <div className="back-button-container">
+        {/* <Link to="/news" className="back-button">
+          <span className="arrow">&larr;</span> Back
+        </Link> */}
+      </div>
       <h1 className="news4-title">RAMI Group launches City's Autonomous Systems and Machine Intelligence Lab</h1>
       <div className="news4-container">
         <img src={newsImage} alt="Drone" className="news4-image" />

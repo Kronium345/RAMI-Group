@@ -18,6 +18,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 20; /* Set opacity */
 }
 
 .team-hero h2 {
@@ -40,10 +41,9 @@
   margin: 0; /* Ensure no extra margin around the text */
 }
 
-
 .team-section {
   text-align: center;
-  background-color: #CDCDCD;
+  background-color: #F7FAFC; /* Applied bg-gray-100 color code */
   padding: 40px 0;
 }
 
@@ -84,6 +84,11 @@
   margin-top: 10px;
   color: #E53E3E;
   font-weight: bold;
+  font-size: 1.25rem; /* Increase font size */
+}
+
+.lecturer-title {
+  font-size: 0.875rem;
 }
 
 .team-name-break {
@@ -94,8 +99,6 @@
 /* Add border to FaUserAlt icon */
 .fa-user-alt-wrapper {
   display: inline-block;
-  /* border: 2px solid #000;
-  border-radius: 50%; */
   padding: 30px;
 }
 
