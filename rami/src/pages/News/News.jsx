@@ -55,7 +55,11 @@ const News = () => {
               <div className="news-date">{item.date}</div>
               <h2 className="news-item-title">{item.title}</h2>
               <p className="news-description">{item.description}</p>
-              <Link to={item.link} className="news-link">Read More</Link>
+              {item.link.startsWith('http') ? (
+                <a href={item.link} target="_blank" rel="noreferrer" className="news-link">Read More</a>
+              ) : (
+                <Link to={item.link} className="news-link">Read More</Link>
+              )}
             </div>
           </div>
         ))}
