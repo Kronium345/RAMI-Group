@@ -58,7 +58,8 @@
   display: flex;
   justify-content: flex-start;
   padding-left: 20px;
-  margin-bottom: 20px;
+  margin-top: 20px; /* Adjusted margin-top to bring it down */
+  margin-bottom: 30px;
 }
 
 .back-button {

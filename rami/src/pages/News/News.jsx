@@ -12,14 +12,14 @@ const newsItems = [
     title: "City’s Professor Nabil Aouf leads on the NATO Science for Peace and Security Programme’s SAPIENCE drone (AI based) competition project",
     description: "City, University of London’s Professor of Autonomous Systems and Machine Intelligence, Professor Nabil Aouf, is the lead academic on the SAPIENCE project, which is funded through the Science for Peace and Security (SPS) programme of the North Atlantic Treaty Organisation (NATO)",
     image: news1,
-    link: "/first-news"
+    link: "https://www.city.ac.uk/news-and-events/news/2023/09/citys-professor-nabil-aouf-leads-on-the-nato-science-for-peace-and-security-programmes-sapience-drone-competition-project"
   },
   {
     date: "25 Jun 2023",
     title: "Prof. Nabil Aouf and RAMI Group features on Islington Tribune Newspaper",
-    description: "Prof. Nabil Aouf and RAMI Group features on Islington Tribune Newspaper",
+    description: "Prof. Nabil Aouf and RAMI Group features on Islington Tribune Newspaper (Page 9 on the)",
     image: news2,
-    link: "/second-news"
+    link: "https://tinyurl.com/RamiGroupFeaturesonNewspaper"
   },
   {
     date: "22 Jun 2022",

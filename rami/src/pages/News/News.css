@@ -47,6 +47,16 @@
   margin-bottom: 10px;
 }
 
+.news1-link {
+  font-size: 1.5em; /* increased font-size */
+  color: #EF4444;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+}
+
 .news-description {
   font-size: 1.1em;
   margin-bottom: 20px;

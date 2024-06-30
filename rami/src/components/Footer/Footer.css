@@ -12,6 +12,7 @@ footer h2 {
     margin-bottom: 0; /* Remove default margin */
     font-weight: bold;
     line-height: 1.2;
+    color: black;
 }
 
 footer span {
