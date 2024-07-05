@@ -1,6 +1,6 @@
 /* src/components/News3.css */
 .news3-page {
-  background-color: #f0f0f0 !important; /* Lighter grey background */
+  background-color: #235857 !important; /* Lighter grey background */
   color: #333;
   padding: 80px 20px 40px; /* Adjusted padding */
   font-family: Arial, sans-serif;
@@ -11,7 +11,7 @@
 .news3-title {
   font-size: 2.5em;
   margin-bottom: 20px;
-  color: #333;
+  color: white;
   font-weight: bold; /* Bold title */
 }
 
@@ -29,6 +29,10 @@
 
 .news3-content {
   margin-top: 20px;
+}
+
+p{
+  color: white;
 }
 
 .news3-date {

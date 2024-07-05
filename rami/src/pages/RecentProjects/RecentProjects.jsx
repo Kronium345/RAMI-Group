@@ -26,7 +26,7 @@ const RecentProjects = () => {
 
       <section className="project-gallery py-16 bg-white text-center">
         <div className="container mx-auto px-4 project-section py-16 bg-gradient-to-r w-full">
-          <h2 className="text-3xl font-bold mb-8">Project Gallery</h2>
+          <h2 className="text-5xl font-bold mb-8 text-white">Project Gallery</h2>
           
           <div className="project-item">
             <h3 className="text-2xl font-bold mb-4">Artificial Intelligence Techniques for GNC Design, Implementation And Verification</h3>
@@ -140,7 +140,7 @@ const RecentProjects = () => {
       {/* Other Research Section */}
       <section className="other-research py-16 text-center">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8">Other Research</h2>
+          <h2 className="text-5xl font-bold mb-8">Other Research</h2>
           <div className="research-item mb-16">
             <h3 className="text-2xl font-bold mb-4">Trajectory Planning and Perception for Autonomous Vehicles</h3>
             <video src={file9} controls className="video-item mx-auto mb-4" style={{ maxWidth: '600px' }} />

@@ -19,7 +19,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.1); /* Adjust the opacity here */
+  background-color: rgba(0, 0, 0, 0.1);
   z-index: 0;
 }
 
@@ -75,21 +75,21 @@
   padding: 60px 0;
 }
 
-.home .quote-section{
-  background: #F5F5F5;
+.home .quote-section {
+  background: #ECE7E2;
 }
 
 /* Contact Section */
 .home .contact {
   background: #e0e0e0;
-  padding: 60px 0; /* Add padding to ensure space around the section */
+  padding: 60px 0;
 }
 
 .home .contact .container {
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 20px;
-  text-align: center; /* Center the text within the container */
+  text-align: center;
 }
 
 .home .contact h2 {
@@ -150,7 +150,7 @@
   flex: 1;
   margin-right: 20px;
   width: 450px;
-  height: 650px; /* Set the height to match the form */
+  height: 650px;
   border-radius: 10px;
 }
 
@@ -166,16 +166,24 @@
   .home .contact .contact-map,
   .home .contact .contact-form {
     width: 100%;
-    height: auto; /* Ensure it resizes properly on smaller screens */
+    height: auto;
   }
 }
 
+.home .intro{
+  background-color: #2F4F4F;
+}
+
+.home .intro p{
+  color: white;
+}
+
 .home .research-profile {
-  background-color: #CDCDCD;
+  background-color: #235857;
 }
 
 .home .tour {
-  background-color: #CDCDCD;
+  background-color: #235857;
 }
 
 .home .intro .container,
@@ -227,8 +235,20 @@
 .home .research-area-tile .description {
   margin-top: 1rem;
   font-size: 1rem;
-  color: #555;
+  color: black;
   font-weight: normal;
+}
+
+.home .research-area-tile .tile-title {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  color: #235857;
+  font-weight: normal;
+  font-weight: bold;
+}
+
+.home .facilities{
+  background-color: #ECE7E2;
 }
 
 .home .facilities-container {
@@ -239,6 +259,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #ECE7E2;
 }
 
 .home .quote-container {
@@ -247,9 +268,9 @@
   align-items: center;
   max-width: 800px;
   padding: 40px;
-  background-color: white;
+  background-color: #ECE7E2;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
 
 .home .profile-img {
@@ -269,7 +290,7 @@
 
 .home .quote-author {
   font-size: 1rem;
-  color: #e53e3e;
+  color: #235857;
   font-weight: bold;
 }
 
@@ -284,8 +305,8 @@
 }
 
 .home .carousel-image {
-  width: inherit;  /* Ensure the image size is the same as its parent container */
-  height: inherit; /* Ensure the image size is the same as its parent container */
+  width: inherit;
+  height: inherit;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border: 2px solid #333;
@@ -305,7 +326,7 @@
 }
 
 .home .contact {
-  background: #f9f9f9;
+  background: #ECE7E2;
 }
 
 .home .contact form {
@@ -364,26 +385,24 @@
   color: #a9a9a9;
 }
 
-/* Adjusting .contact-map to be wider */
 .home .contact-map {
   flex: 1;
   margin-right: 20px;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  max-width: 600px; /* Maximum width */
-  max-height: 450px; /* Maximum height */
+  width: 100%;
+  height: 100%;
+  max-width: 600px;
+  max-height: 450px;
 }
 
-/* Ensure the form also uses the same height to match the map */
 .home .contact-form {
   flex: 1;
-  height: 100%; /* Full height */
+  height: 100%;
 }
 
 iframe {
   margin: auto;
-  width: 50%; /* Adjusted to take full width for a wider map display */
-  height: 50%; /* Adjusted to take full width for a wider map display */
+  width: 50%;
+  height: 50%;
   padding: 0 50px;
   padding-top: 15px;
   height: 290px;
@@ -407,20 +426,19 @@ iframe {
   right: -80px;
 }
 
-
+/* Responsive Design */
 @media (max-width: 768px) {
   .home .hero-content h2 {
-    font-size: 4rem;
+    font-size: 2.5rem; /* Smaller font size for mobile */
   }
 
   .home .hero-content p {
-    font-size: 1.5rem;
+    font-size: 1.25rem; /* Smaller font size for mobile */
   }
 
   .home .profile-img {
     width: 80px;
     height: 80px;
-    display: flex;
   }
 
   .home .quote-text {
@@ -453,5 +471,46 @@ iframe {
   .home .contact .contact-form {
     width: 100%;
     margin-bottom: 20px;
+  }
+
+  .home .research-areas-grid {
+    grid-template-columns: 1fr; /* Single column for mobile */
+    gap: 1rem; /* Smaller gap for mobile */
+  }
+
+  .home .research-area-tile {
+    width: 100%; /* Full width for mobile */
+    height: auto; /* Auto height for mobile */
+  }
+
+  .home .carousel-image {
+    width: 100%; /* Full width for mobile */
+    height: auto; /* Auto height for mobile */
+  }
+
+  .home .tour-video-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .home .tour img {
+    width: 100%; /* Full width for mobile */
+    height: auto; /* Auto height for mobile */
+  }
+
+  .home .slider {
+    width: 100%; /* Full width for mobile */
+  }
+
+  .arrow-icon {
+    font-size: 2rem; /* Smaller icon for mobile */
+  }
+
+  .arrow-left {
+    left: 10px; /* Adjusted position for mobile */
+  }
+
+  .arrow-right {
+    right: 10px; /* Adjusted position for mobile */
   }
 }

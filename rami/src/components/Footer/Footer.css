@@ -3,8 +3,8 @@
 footer {
     padding: 20px;
     text-align: center;
-    background-color: #A5A299;
-    color: #333;
+    background-color: #235857;
+    color: black;
 }
 
 footer h2 {
@@ -12,12 +12,12 @@ footer h2 {
     margin-bottom: 0; /* Remove default margin */
     font-weight: bold;
     line-height: 1.2;
-    color: black;
+    color: white;
 }
 
 footer span {
     display: block; /* Makes span take a new line */
-    color: #333; /* Adjust color to fit design */
+    color: white; /* Adjust color to fit design */
     margin-top: 5px; /* Space between title and subtitle */
     font-size: 20px; /* Smaller font size for subtitle */
 }

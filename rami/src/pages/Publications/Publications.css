@@ -47,7 +47,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(255, 255, 255, 0.9); /* White hue overlay (increased whiteness) */
+    background-color: #F1EBEC; /* White hue overlay (increased whiteness) */
 }
 
 .publications-content .container {

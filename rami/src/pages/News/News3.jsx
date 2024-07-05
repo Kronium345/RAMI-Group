@@ -16,7 +16,7 @@ const News3 = () => {
         <img src={newsImage} alt="Drone" className="news3-image" />
         <div className="news3-content">
           <h2>RAMI group hosted at the ESA GSTP conference organized by European Space Agency - ESA and the Austrian Space Agency (FFG)</h2>
-          <p>
+          <p className="text-white">
             RAMI Group at City, University of London, led by Prof Nabil Aouf, who was honored, and personally invited to give a talk about a research program related to AI and GNC and named AITIVE-GNC, at the ESA GSTP conference organized by European Space Agency - ESA and the Austrian Space Agency (FFG). We were the only university in Europe that got this privilege and presented our work in front of the best Space industries in Europe.
           </p>
         </div>

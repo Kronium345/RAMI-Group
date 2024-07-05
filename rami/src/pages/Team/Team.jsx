@@ -48,7 +48,7 @@ const Team = () => {
           <div className="team-category">
             <div className="team-grid">
               <div className="team-member">
-                <img src={abdelhafidImage} alt="Dr. Abdelhafid Zenati" className="team-img ml-6" />
+                <img src={abdelhafidImage} alt="Dr. Abdelhafid Zenati" className="team-img ml-1" />
                 <p className="team-name">
                   Dr. Abdelhafid Zenati
                   <span className="team-name-break">(Lecturer)</span>
@@ -62,7 +62,8 @@ const Team = () => {
             <div className="team-grid">
               <div className="team-member">
                 <img src={zakariaImage} alt="Zakaria Chekatta" className="team-img" />
-                <p className="team-name">Dr. Zakaria Chekatta</p>
+                <p className="team-name">Dr. Zakaria</p>
+                <span className="team-name-break">Chekatta</span>
               </div>
               <div className="team-member">
                 <img src={wangImage} alt="Wang Ziwei" className="team-img" />
@@ -74,7 +75,8 @@ const Team = () => {
               </div>
               <div className="team-member">
                 <img src={duarteImage} alt="Duarte Rondao" className="team-img" />
-                <p className="team-name">Dr. Duarte Rondao</p>
+                <p className="team-name">Dr. Duarte</p>
+                <span className="team-name-break">Rondao</span>
               </div>
               <div className="team-member">
                 <img src={jianingImage} alt="Jianing Song" className="team-img" />
@@ -96,7 +98,8 @@ const Team = () => {
               </div>
               <div className="team-member">
                 <img src={abdullaImage} alt="Abdulla Tammam" className="team-img" />
-                <p className="team-name">Abdulla Tammam</p>
+                <p className="team-name">Abdulla</p>
+                <span className="team-name-break">Tammam</span>
               </div>
               <div className="team-member">
                 <img src={tomImage} alt="Thomas Hickling" className="team-img" />
@@ -116,9 +119,9 @@ const Team = () => {
               </div>
               <div className="team-member">
                 <div className="fa-user-alt-wrapper">
-                  <FaUserAlt size={150} color="#" />
+                  <FaUserAlt size={110} color="#" />
                 </div>
-                <p className="team-name">Will Jamous</p>
+                <p className="team-name-user">Will Jamous</p>
               </div>
             </div>
           </div>
@@ -135,7 +138,8 @@ const Team = () => {
               </div>
               <div className="team-member">
                 <img src={davidImage} alt="Prof. David Stupples" className="team-img" />
-                <p className="team-name">Prof. David Stupples</p>
+                <p className="team-name">Prof. David</p>
+                <span className="team-name-break">Stupples</span>
               </div>
               <div className="team-member">
                 <img src={tomChenImage} alt="Prof. Tom Chen" className="team-img" />
@@ -143,7 +147,8 @@ const Team = () => {
               </div>
               <div className="team-member">
                 <img src={veselinImage} alt="Dr. Veselin Rakocevic" className="team-img" />
-                <p className="team-name">Dr. Veselin Rakocevic</p>
+                <p className="team-name">Dr. Veselin</p>
+                <span className="team-name-break">Rakocevic</span>
               </div>
             </div>
           </div>

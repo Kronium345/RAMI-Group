@@ -1,6 +1,6 @@
 /* News.css */
 .news-page {
-  background-color: #f0f0f0; /* lighter grey background */
+  background-color: #235857; /* lighter grey background */
 }
 
 .news-container {
@@ -10,7 +10,7 @@
 }
 
 .news-item {
-  background-color: #ffffff; /* card colour changed to white */
+  background-color: #F1EBEC; /* card color changed to white */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 20px 0;
@@ -22,9 +22,17 @@
   text-align: left;
 }
 
+.news-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
 .news-image img {
-  width: 100%;
+  width: 90%; /* Shrink images so they are not up against the containers */
   height: auto;
+  border-radius: 10px;
 }
 
 .news-content {
@@ -35,10 +43,7 @@
   font-size: 1.25em; /* increased font-size of the date */
   color: #666;
   margin-bottom: 10px;
-  display: block;
-  margin: 20px auto;
   text-align: center;
-
 }
 
 .news-item-title {
@@ -64,13 +69,12 @@
 
 .news-link {
   font-size: 1.25em; /* increased font-size of the 'read more' text */
-  color: #EF4444;
+  color: #235857;
   text-decoration: none;
   font-weight: bold;
   display: block;
   margin: 20px auto;
   text-align: center;
-
 }
 
 .news-link:hover {
@@ -97,4 +101,15 @@
 
 .arrow {
   margin-right: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .news-item {
+    width: 95%; /* Adjust width for smaller screens */
+  }
+
+  .news-image img {
+    width: 100%; /* Ensure images are responsive on smaller screens */
+  }
 }

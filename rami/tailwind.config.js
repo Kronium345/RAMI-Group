@@ -9,6 +9,9 @@ module.exports = {
         'gray-300': '#d1d5db',
         'red-200': '#fecaca',
       },
+      customDarkGrey: {
+        DEFAULT: '#2F4F4F'
+      },
     },
   },
   plugins: [],
