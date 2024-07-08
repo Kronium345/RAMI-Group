@@ -19,11 +19,11 @@ import tourVideo from '../../assets/file-video.mp4';
 
 const Home = () => {
   const NextArrow = ({ onClick }) => (
-    <FaArrowRight className="arrow-icon arrow-right" onClick={onClick} style={{ color: 'white' }} />
+    <FaArrowRight className="arrow-icon arrow-right" onClick={onClick} />
   );
 
   const PrevArrow = ({ onClick }) => (
-    <FaArrowLeft className="arrow-icon arrow-left" onClick={onClick} style={{ color: 'white' }} />
+    <FaArrowLeft className="arrow-icon arrow-left" onClick={onClick} />
   );
 
   const settings = {
@@ -47,44 +47,44 @@ const Home = () => {
       </section>
 
       {/* Intro Section */}
-      <section className="intro py-16 text-center">
+      <section className="intro py-16 bg-customLightGrey text-center">
         <div className="intro-container mx-auto px-4">
-          <h2 className="text-4xl font-bold mb-8 text-white">Robotics, Autonomy and Machine Intelligence Group</h2>
-          <p className="text-xl intro-text mb-20 text-white">
+          <h2 className="text-4xl font-bold mb-8">Robotics, Autonomy and Machine Intelligence Group</h2>
+          <p className="text-xl intro-text mb-20">
             Robotics, Autonomy and Machine Intelligence (RAMI) Group led by Prof Nabil Aouf is dedicated to fulfilling customer’s ambitious and innovative requirements. The group steadily establishes itself as a world leader in a range of applications from automatic sensing to processing and AI Autonomy for Data Processing, Robotics, and Unmanned Vehicles to platforms Navigation/Control and Cyber Physical Systems.
           </p>
-          <p className="text-3xl intro-subtext text-white font-bold mt-2">
+          <p className="text-3xl intro-subtext text-black-500 font-bold mt-2">
             Research areas include
           </p>
           <div className="research-areas-grid">
             <div className="research-area-tile">
               <FaRoute size={48} className="icon" />
-              <p className="mt-4 font-bold tile-title">Navigation, Guidance and Control</p>
+              <p className="mt-4 font-bold">Navigation, Guidance and Control</p>
               <p className="description">Techniques for accurate localization and control of autonomous vehicles.</p>
             </div>
             <div className="research-area-tile">
               <FaCamera size={48} className="icon" />
-              <p className="mt-4 font-bold tile-title">Real time Imaging and Embedded Vision based systems</p>
+              <p className="mt-4 font-bold">Real time Imaging and Embedded Vision based systems</p>
               <p className="description">Developing advanced imaging systems for real-time applications.</p>
             </div>
             <div className="research-area-tile">
               <FaProjectDiagram size={48} className="icon" />
-              <p className="mt-4 font-bold tile-title">Planning and Re-planning (Decision Making)</p>
+              <p className="mt-4 font-bold">Planning and Re-planning (Decision Making)</p>
               <p className="description">Algorithms for efficient planning and re-planning in dynamic environments.</p>
             </div>
             <div className="research-area-tile">
               <FaDatabase size={48} className="icon" />
-              <p className="mt-4 font-bold tile-title">Data Fusion and Mining</p>
+              <p className="mt-4 font-bold">Data Fusion and Mining</p>
               <p className="description">Techniques for integrating and analyzing data from multiple sources.</p>
             </div>
             <div className="research-area-tile">
               <FaVrCardboard size={48} className="icon" />
-              <p className="mt-4 font-bold tile-title">Human-Machine Interface/Augmented-Virtual Reality</p>
+              <p className="mt-4 font-bold">Human-Machine Interface/Augmented-Virtual Reality</p>
               <p className="description">Enhancing human interaction with machines through AR/VR technologies.</p>
             </div>
             <div className="research-area-tile">
               <FaRobot size={48} className="icon" />
-              <p className="mt-4 font-bold tile-title">Autonomous Cyber (Cyber Soft/Cyber Physical)</p>
+              <p className="mt-4 font-bold">Autonomous Cyber (Cyber Soft/Cyber Physical)</p>
               <p className="description">Developing autonomous systems for cyber-physical applications.</p>
             </div>
           </div>
@@ -94,7 +94,6 @@ const Home = () => {
       {/* Quote Section */}
       <section className="quote-section py-16 text-center">
         <div className="container mx-auto px-4">
-          {/* <h2 className="text-3xl font-bold mb-8">Quote from Prof. Nabil Aouf</h2> */}
           <div className="quote-container flex flex-col md:flex-row justify-center items-center space-x-4 max-w-2xl mx-auto">
             <a href="https://www.city.ac.uk/about/people/academics/nabil-aouf" target="_blank" rel="noopener noreferrer">
               <img src={nabilImage} alt="Prof. Nabil Aouf" className="profile-img w-80 h-24 rounded-full mb-4 md:mb-0" />
@@ -110,9 +109,9 @@ const Home = () => {
       </section>
 
       {/* Research Profile Section */}
-      <section className="research-profile py-16 text-center text-white">
+      <section className="research-profile py-16 bg-gradient-to-r text-center">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold mb-8 text-white">Research Profile</h2>
+          <h2 className="text-4xl font-bold mb-8">Research Profile</h2>
           <Slider {...settings} className="slider">
             <div className="carousel-item">
               <img src={image1} alt="Navigation" className="carousel-image" />
@@ -138,9 +137,9 @@ const Home = () => {
       </section>
 
       {/* Tour Section */}
-      <section className="tour py-16 text-center">
+      <section className="tour py-16 bg-gradient-to-r text-center">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold mb-8 text-white">Take a Tour</h2>
+          <h2 className="text-4xl font-bold mb-8 text-black-500">Take a Tour</h2>
           <div className="flex flex-col md:flex-row justify-center items-center space-x-4 max-w-4xl mx-auto">
             <div className="tour-video-container w-full md:w-4/5">
               <video controls className="w-full h-full object-cover rounded-lg shadow-lg">

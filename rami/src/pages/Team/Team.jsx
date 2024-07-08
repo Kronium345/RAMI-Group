@@ -36,7 +36,7 @@ const Team = () => {
       <section className="team-section py-16 text-center">
         <div className="container mx-auto px-4">
           <div className="team-category">
-            <h2 className="text-3xl font-bold mb-8">Academics</h2>
+            <h2 className="text-3xl font-bold mb-8 team-heading">Academics</h2>
             <div className="team-grid">
               <div className="team-member">
                 <img src={nabilImage} alt="Prof. Nabil Aouf" className="team-img" />
@@ -58,7 +58,7 @@ const Team = () => {
           </div>
 
           <div className="team-category">
-            <h2 className="text-3xl font-bold mb-8">Research Fellows</h2>
+            <h2 className="text-3xl font-bold mb-8 team-heading">Research Fellows</h2>
             <div className="team-grid">
               <div className="team-member">
                 <img src={zakariaImage} alt="Zakaria Chekatta" className="team-img" />
@@ -86,7 +86,7 @@ const Team = () => {
           </div>
 
           <div className="team-category">
-            <h2 className="text-3xl font-bold mb-8">PhD Researchers</h2>
+            <h2 className="text-3xl font-bold mb-8 team-heading">PhD Researchers</h2>
             <div className="team-grid">
               <div className="team-member">
                 <img src={maxwellImage} alt="Maxwell Hogan" className="team-img" />
@@ -127,7 +127,7 @@ const Team = () => {
           </div>
 
           <div className="team-category">
-            <h2 className="text-3xl font-bold mb-8">Associate Members</h2>
+            <h2 className="text-3xl font-bold mb-8 team-heading">Associate Members</h2>
             <div className="team-grid">
               <div className="team-member">
                 <img src={mariaImage} alt="Dr. Maria Tomas-Rodriguez" className="team-img" />

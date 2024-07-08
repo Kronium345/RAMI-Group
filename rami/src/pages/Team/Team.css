@@ -25,7 +25,7 @@
 }
 
 .team-container {
-  background-color: #F1EBEC;
+  background-color: #CDCDCD;
   padding: 20px;
   border-radius: 5px;
   text-align: center;
@@ -40,12 +40,12 @@
 
 .team-section {
   text-align: center;
-  background-color: #F7FAFC;
+  background-color: #CDCDCD;
   padding: 40px 0;
 }
 
 .team-heading{
-  color: #235857;
+  color: black;
 }
 
 .team-category {
@@ -53,7 +53,7 @@
 }
 
 .team-category h2 {
-  color: #235857;
+  color: black;
   margin-bottom: 20px;
 }
 
@@ -83,13 +83,13 @@
 
 .team-name {
   margin-top: 10px;
-  color: #235857;
+  color: black;
   font-weight: bold;
   font-size: 1rem;
 }
 
 .team-name-user {
-  color: #235857;
+  color: black;
   font-weight: bold;
   font-size: 1rem;
 }
@@ -98,7 +98,7 @@
   display: block;
   margin-top: -5px;
   font-size: 1rem;
-  color: #235857;
+  color: black;
   font-weight: bold;
 }
 

@@ -12,6 +12,9 @@ module.exports = {
       customDarkGrey: {
         DEFAULT: '#2F4F4F'
       },
+      customLightGrey: {
+        DEFAULT: '#CDCDCD'
+      }
     },
   },
   plugins: [],

@@ -19,7 +19,7 @@ const News4 = () => {
         <div className="news4-content">
           {/* <div className="news4-date">22 Sep 2021</div> */}
           <h2>RAMI Group launches City's Autonomous Systems and Machine Intelligence Lab</h2>
-          <p className="text-white">
+          <p>
           Launch of City's Autonomous Systems and Machine Intelligence Lab and Arena facility took place on 21/09/21. Among those in attendance is the president of City university, Prof. Anthony Finkelstein, the dean Prof. Rajkumar Roy and others. Many exhibitions were conducted by the RAMI Group. The president commended the group for their achievements.      
           </p>
         </div>

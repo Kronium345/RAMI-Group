@@ -1,6 +1,6 @@
 /* News4.css */
 .news4-page {
-  background-color: #235857; /* lighter grey background */
+  background-color: #CDCDCD; /* lighter grey background */
   color: #333;
   padding: 80px 20px 40px;
   font-family: Arial, sans-serif;
@@ -11,7 +11,7 @@
 .news4-title {
   font-size: 2.5em;
   margin-bottom: 20px;
-  color: white;
+  color: black;
   font-weight: bold; /* Bold title */
 }
 
@@ -33,7 +33,7 @@
 
 .news4-date {
   font-size: 1.5em; /* increased font-size */
-  color: #666;
+  color: black;
   margin-bottom: 10px;
   display: block;
   margin: 20px auto;

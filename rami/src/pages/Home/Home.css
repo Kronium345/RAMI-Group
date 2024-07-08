@@ -2,9 +2,9 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../assets/final-banner.jpg');
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../assets/rami-banner-new-final.png');
   background-size: cover;
-  background-position: center;
+  background-position: center 9%; /* Move the background up */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,7 +31,7 @@
 .home .intro-title {
   font-size: 4rem;
   font-weight: bold;
-  color: #000;
+  color: white;
 }
 
 .home .intro-text {
@@ -49,7 +49,7 @@
 
 .home .intro-subtitle {
   font-size: 2.5rem;
-  color: #000;
+  color: white;
   margin-top: 1rem;
 }
 
@@ -171,19 +171,19 @@
 }
 
 .home .intro{
-  background-color: #2F4F4F;
+  background-color: #CDCDCD;
 }
 
 .home .intro p{
-  color: white;
+  color: black;
 }
 
 .home .research-profile {
-  background-color: #235857;
+  background-color: #CDCDCD;
 }
 
 .home .tour {
-  background-color: #235857;
+  background-color: #CDCDCD;
 }
 
 .home .intro .container,
@@ -268,7 +268,7 @@
   align-items: center;
   max-width: 800px;
   padding: 40px;
-  background-color: #ECE7E2;
+  background-color: white;
   border-radius: 10px;
   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
@@ -290,7 +290,7 @@
 
 .home .quote-author {
   font-size: 1rem;
-  color: #235857;
+  color: black;
   font-weight: bold;
 }
 

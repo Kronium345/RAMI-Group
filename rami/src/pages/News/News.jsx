@@ -42,7 +42,7 @@ const News = () => {
     <div className="news-page project-section py-16">
       <section className="news-hero text-center">
         <div className="container mx-auto">
-          <h3 className="text-5xl font-bold py-4 px-8 inline-block mt-12 text-white">Latest News</h3>
+          <h3 className="text-5xl font-bold py-4 px-8 inline-block mt-12">Latest News</h3>
         </div>
       </section>
       <div className="news-container">
