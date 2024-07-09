@@ -2,9 +2,9 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../assets/rami-banner-new-final.png');
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../assets/design1a.png');
   background-size: cover;
-  background-position: center 9%; /* Move the background up */
+  background-position: center 70%; /* Move the background up */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,12 +26,31 @@
 .home .hero-content {
   z-index: 1;
   max-width: 800px;
+  margin-top: 2rem;
 }
 
 .home .intro-title {
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-weight: bold;
   color: white;
+  text-align: left; /* Align text to the left */
+  margin-left: -620px;
+}
+
+.home .intro-title2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  text-align: left; /* Align text to the left */
+  margin-left: -580px;
+}
+
+.home .intro-line {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  text-align: left; /* Align text to the left */
+  margin-left: -470px;
 }
 
 .home .intro-text {
@@ -48,9 +67,12 @@
 }
 
 .home .intro-subtitle {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: white;
   margin-top: 1rem;
+  text-align: left; /* Align text to the left */
+  margin-left: -490px;
+  margin-top: 0.2rem;
 }
 
 .home .logo-container {
@@ -146,7 +168,7 @@
   color: #a9a9a9;
 }
 
-.home .contact .contact-map {
+.home .contact-map {
   flex: 1;
   margin-right: 20px;
   width: 450px;
@@ -168,13 +190,26 @@
     width: 100%;
     height: auto;
   }
+
+  .home .hero-content {
+    margin-top: 0;
+    padding: 0 20px;
+  }
+
+  .home .intro-title,
+  .home .intro-title2,
+  .home .intro-line,
+  .home .intro-subtitle {
+    text-align: center; /* Center text on smaller screens */
+    margin-left: 0; /* Remove left margin on smaller screens */
+  }
 }
 
-.home .intro{
+.home .intro {
   background-color: #CDCDCD;
 }
 
-.home .intro p{
+.home .intro p {
   color: black;
 }
 
@@ -247,7 +282,7 @@
   font-weight: bold;
 }
 
-.home .facilities{
+.home .facilities {
   background-color: #ECE7E2;
 }
 

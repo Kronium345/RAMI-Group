@@ -41,7 +41,9 @@ const Home = () => {
       {/* Hero Section */}
       <section className="hero h-screen flex flex-col items-center justify-center text-center">
         <div className="hero-content">
-          <h2 className="intro-title">Robotics, Autonomy and Machine Intelligence Group (RAMI)</h2>
+          <h2 className="intro-title">Robotics, Autonomy & Machine <br /></h2>
+          <h2 className="intro-title2"> Intelligence Group (RAMI)</h2>
+          <h2 className="intro-line">——————— </h2>
           <p className="intro-subtitle">A World-class Research Group</p>
         </div>
       </section>
