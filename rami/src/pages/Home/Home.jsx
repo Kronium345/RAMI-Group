@@ -43,7 +43,7 @@ const Home = () => {
         <div className="hero-content">
           <h2 className="intro-title">Robotics, Autonomy & Machine <br /></h2>
           <h2 className="intro-title2"> Intelligence Group (RAMI)</h2>
-          <h2 className="intro-line">——————— </h2>
+          <h2 className="intro-line">━━━━━━━ </h2>
           <p className="intro-subtitle">A World-class Research Group</p>
         </div>
       </section>
