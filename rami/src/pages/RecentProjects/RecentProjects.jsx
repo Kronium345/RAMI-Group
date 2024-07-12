@@ -11,7 +11,7 @@ import file1 from '../../assets/recentprojects/file1.mp4';
 import file10 from '../../assets/recentprojects/file10.mp4';
 import file9 from '../../assets/recentprojects/file9.mp4';
 import file11 from '../../assets/recentprojects/file11.mp4';
-import projectBanner from '../../assets/recentprojects/projects-banner-new.jpg';
+import projectBanner from '../../assets/recentprojects/new-recent-projects-final.png';
 
 import './RecentProjects.css';
 

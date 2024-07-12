@@ -98,7 +98,7 @@
 }
 
 .home .quote-section {
-  background: #ECE7E2;
+  background-color: #ECE7E2;
 }
 
 /* Contact Section */
@@ -283,7 +283,7 @@
 }
 
 .home .facilities {
-  background-color: #ECE7E2;
+  background-color: #f1eeec;
 }
 
 .home .facilities-container {
@@ -294,7 +294,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ECE7E2;
+  background-color: #f1eeec;
 }
 
 .home .quote-container {
@@ -303,7 +303,7 @@
   align-items: center;
   max-width: 800px;
   padding: 40px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
@@ -361,7 +361,7 @@
 }
 
 .home .contact {
-  background: #ECE7E2;
+  background: #f1eeec;
 }
 
 .home .contact form {
@@ -423,8 +423,8 @@
 .home .contact-map {
   flex: 1;
   margin-right: 20px;
-  width: 100%;
-  height: 100%;
+  width: 450px;
+  height: 650px;
   max-width: 600px;
   max-height: 450px;
 }
