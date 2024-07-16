@@ -67,7 +67,7 @@ const Team = () => {
               </div>
               <div className="team-member">
                 <img src={wangImage} alt="Wang Ziwei" className="team-img" />
-                <p className="team-name">Dr. Wang Ziwei</p>
+                <p className="team-name">Dr. Ziwei Wang</p>
               </div>
               <div className="team-member">
                 <img src={leoImage} alt="Leo Pauly" className="team-img" />

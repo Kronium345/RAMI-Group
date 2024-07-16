@@ -11,6 +11,8 @@ import file1 from '../../assets/recentprojects/file1.mp4';
 import file10 from '../../assets/recentprojects/file10.mp4';
 import file9 from '../../assets/recentprojects/file9.mp4';
 import file11 from '../../assets/recentprojects/file11.mp4';
+import file12a from '../../assets/recentprojects/file12a.gif';
+import file13a from '../../assets/recentprojects/file13a.gif';
 import projectBanner from '../../assets/recentprojects/new-recent-projects-final.png';
 
 import './RecentProjects.css';
@@ -72,6 +74,35 @@ const RecentProjects = () => {
               The project aims to demonstrate the integration of common building blocks for robots that are composed to create functional and intelligent robotic agents. Apart from the lunar exploration mission, a transfer of the applied technologies to terrestrial applications will be evaluated.
             </p>
           </div>
+
+          {/* New Entries */}
+
+          <div className="project-item">
+            <h3 className="text-2xl font-bold mb-4">Explainable Secure Deep Learning Software for Spacecraft GNC Systems</h3>
+            <img src={file12a} alt="Project 1" className="mx-auto mb-4" />
+            <p className="mb-4">
+            Artificial Intelligence (AI) algorithms have been widely used to solve a variety of complex real-world problems, attracting significant interest in space engineering due to their promising performance. However, a primary concern regarding the robustness of Deep Learning (DL) techniques is their vulnerability to adversarial attacks. These attacks are often imperceptible to human vision but can significantly influence the decisions made by DL schemes.
+            </p>
+            <p className="mb-4">
+            The objective of this project is to make onboard adversarial learning transparent, ensuring trustworthy decisions and providing highly precise detection and defensive responses to ensure the safety of space vehicles. To achieve this, we aim to harness Explainable Artificial Intelligence (XAI) with adversarial attack detection, which is potentially applicable to the embedded space Guidance, Navigation, and Control (GNC) systems of space vehicles that adopt deep learning techniques. More specifically, this project provides DL-based space GNC schemes while simultaneously exploiting models’ explainability to detect potential adversarial attacks on these schemes. This approach makes them secure, less vulnerable, and ready for safe adoption in real-world applications.
+            </p>
+          </div>
+
+          <div className="project-item">
+            <h3 className="text-2xl font-bold mb-4">Space Servicing Vehicle close-range Multi-Spectral Camera Engineering Model</h3>
+            <img src={file13a} alt="Project 1" className="mx-auto mb-4" />
+            <p className="mb-4">
+            Vision-based space relative navigation systems, which use cameras to collect information in the visible spectrum, are affected by changes in the illumination conditions of the target. For instance, when part of the orbit is in the penumbra or umbra zone, the illumination conditions can be very low or even in full eclipse.
+            </p>
+            <p className="mb-4">
+            In such cases, a promising solution is to combine infrared cameras with visual cameras. This approach addresses issues related to imaging in the visual spectrum, as the Thermal Infrared (TIR) spectrum depends on the target’s temperature and thermal inertia to cool down and warm up, not on the illumination.            
+            </p>
+            <p className="mb-4">
+            This project aims to develop a vision-based autonomous navigation solution that produces accurate relative pose estimation by capturing images during all phases of the rendezvous, regardless of the illumination conditions. By fusing data from the visual and infrared bands, the algorithm aims to output highly accurate relative poses. Moreover, the system also aims to reach Technology Readiness Level (TRL) 6, making it suitable for space mission environments.
+            </p>
+          </div>
+
+          {/* New Entries End */}
 
           <div className="project-item">
             <h3 className="text-2xl font-bold mb-4">Artificial Intelligence for Detection of Explosive Device AIDED</h3>
