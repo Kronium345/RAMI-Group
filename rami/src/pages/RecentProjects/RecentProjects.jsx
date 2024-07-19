@@ -13,6 +13,9 @@ import file9 from '../../assets/recentprojects/file9.mp4';
 import file11 from '../../assets/recentprojects/file11.mp4';
 import file12a from '../../assets/recentprojects/file12a.gif';
 import file13a from '../../assets/recentprojects/file13a.gif';
+import keep_close from '../../assets/recentprojects/Keep_close.mp4';
+import oibardemo from '../../assets/recentprojects/oibardemo.mp4';
+import oibarsimul from '../../assets/recentprojects/oibarsimul.mp4';
 import projectBanner from '../../assets/recentprojects/new-recent-projects-final.png';
 
 import './RecentProjects.css';
@@ -32,7 +35,7 @@ const RecentProjects = () => {
           
           <div className="project-item">
             <h3 className="text-2xl font-bold mb-4">Artificial Intelligence Techniques for GNC Design, Implementation And Verification</h3>
-            <img src={img1} alt="Project 1" className="mx-auto mb-4" />
+            <video src={keep_close} controls className="mx-auto mb-4" style={{ maxWidth: '600px' }} />
             <p className="mb-4">
               Artificial Intelligence Techniques for GNC Design, Implementation And Verification - EXPRO PLUS (AITIVE-GNC) Project funded by European Space Agency (ESA) aiming at proposing a study to make a formal link between the AI-based ML and the control theory-based reasoning and optimisations within a challenging space GNC scenario as introduced above (see Figure 1).
             </p>
@@ -137,7 +140,10 @@ const RecentProjects = () => {
 
           <div className="project-item">
             <h3 className="text-2xl font-bold mb-4">OIBAR: Orbital AI-based Autonomous Refuelling</h3>
-            <div className="video-placeholder mx-auto mb-4">Video</div>
+            <div className="video-container mx-auto mb-4">
+              <video src={oibardemo} controls className="video-item" />
+              <video src={oibarsimul} controls className="video-item" />
+            </div>
             <p className="mb-4">
               A spacecraft’s navigation system is of paramount importance for missions involving proximity operations, playing a pivotal role in the success of objectives based on the careful coordination of two or more bodies in space. In particular, new and ambitious rendezvous and docking (RVD) programs implicate the execution of precise manoeuvres at close distances with fast reaction times, justifying the need for autonomous decision-making capabilities to run onboard without a ground station in the loop, especially outside of low Earth orbit.
             </p>
@@ -198,7 +204,7 @@ const RecentProjects = () => {
           </div>
 
           <div className="research-item mb-16">
-            <h3 className="text-2xl font-bold mb-4">Drl for Cubesats</h3>
+            <h3 className="text-2xl font-bold mb-4">DRL for Cubesats</h3>
             <img src={img4} alt="Project 1" className="mx-auto mb-4" />
             <p className="mb-4">
               Advancements in Reinforcement Learning (RL) algorithms and technologies have opened up new possibilities for their use in autonomous spacecraft control. This work presents two novel Deep Reinforcement Learning (DRL) agents which, when combined, can achieve satellite rendezvous while simultaneously maintaining attitude control.
