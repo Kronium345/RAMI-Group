@@ -173,3 +173,58 @@
   line-height: 1.6;
   text-align: justify;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero, .projects-hero {
+    height: 300px; /* Adjust the height for smaller screens */
+  }
+
+  .projects-hero h2, .projects-container h3 {
+    font-size: 1.5rem; /* Smaller font size for mobile */
+  }
+
+  .projects-container {
+    padding: 10px;
+  }
+
+  .project-gallery {
+    padding: 3rem 0;
+  }
+
+  .project-gallery h2 {
+    font-size: 2rem; /* Smaller font size for mobile */
+  }
+
+  .project-item {
+    padding: 1rem;
+  }
+
+  .project-item h3 {
+    font-size: 1.5rem; /* Smaller font size for mobile */
+  }
+
+  .video-item {
+    max-width: 100%; /* Full width for mobile */
+  }
+
+  .video-placeholder {
+    height: auto; /* Auto height for mobile */
+  }
+
+  .other-research {
+    padding: 2rem 0;
+  }
+
+  .other-research h2 {
+    font-size: 2rem; /* Smaller font size for mobile */
+  }
+
+  .research-item {
+    padding: 1rem;
+  }
+
+  .research-item h3 {
+    font-size: 1.5rem; /* Smaller font size for mobile */
+  }
+}
